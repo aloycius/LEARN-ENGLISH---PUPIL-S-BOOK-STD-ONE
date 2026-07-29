@@ -1,0 +1,2430 @@
+{
+  "action": {
+    "word": "action",
+    "definition": "something that a person or animal does.",
+    "variations": [
+      "action",
+      "actions"
+    ],
+    "emoji": "🏃✋"
+  },
+  "activity": {
+    "word": "activity",
+    "definition": "something you do to learn, play, or work.",
+    "variations": [
+      "activity",
+      "activities"
+    ],
+    "emoji": "✍️🎯"
+  },
+  "afternoon": {
+    "word": "afternoon",
+    "definition": "the middle part of the day after morning",
+    "variations": [
+      "afternoon",
+      "afternoons"
+    ],
+    "emoji": "☀️🕑"
+  },
+  "age": {
+    "word": "age",
+    "definition": "the number of years someone or something has lived",
+    "variations": [
+      "age",
+      "ages"
+    ],
+    "emoji": "🎂📅"
+  },
+  "alphabet": {
+    "word": "alphabet",
+    "definition": "all the letters of a language in order",
+    "variations": [
+      "alphabet",
+      "alphabets"
+    ],
+    "emoji": "🔤📝"
+  },
+  "animal": {
+    "word": "animal",
+    "definition": "a living creature such as a cow, dog, cat, or duck.",
+    "variations": [
+      "animal",
+      "animals"
+    ],
+    "emoji": "🐄🐶🐱"
+  },
+  "ant": {
+    "word": "ant",
+    "definition": "a very small insect that lives in groups",
+    "variations": [
+      "ant",
+      "ants"
+    ],
+    "emoji": "🐜"
+  },
+  "arm": {
+    "word": "arm",
+    "definition": "the part of the body from the shoulder to the hand",
+    "variations": [
+      "arm",
+      "arms"
+    ],
+    "emoji": "💪"
+  },
+  "axe": {
+    "word": "axe",
+    "definition": "a tool used for cutting wood",
+    "variations": [
+      "axe",
+      "axes"
+    ],
+    "emoji": "🪓"
+  },
+  "bag": {
+    "word": "bag",
+    "definition": "a soft container used to carry things",
+    "variations": [
+      "bag",
+      "bags"
+    ],
+    "emoji": "👜🎒"
+  },
+  "bat": {
+    "word": "bat",
+    "definition": "an animal that flies at night",
+    "variations": [
+      "bat",
+      "bats"
+    ],
+    "emoji": "🦇"
+  },
+  "bed": {
+    "word": "bed",
+    "definition": "a piece of furniture used for sleeping",
+    "variations": [
+      "bed",
+      "beds"
+    ],
+    "emoji": "🛏️"
+  },
+  "bee": {
+    "word": "bee",
+    "definition": "a small flying insect that makes honey",
+    "variations": [
+      "bee",
+      "bees"
+    ],
+    "emoji": "🐝"
+  },
+  "bid": {
+    "word": "bid",
+    "definition": "to offer a price for something",
+    "variations": [
+      "bid",
+      "bids",
+      "bidding"
+    ],
+    "emoji": "💰"
+  },
+  "big": {
+    "word": "big",
+    "definition": "large in size",
+    "variations": [
+      "big",
+      "bigger",
+      "biggest"
+    ],
+    "emoji": "📏🐘"
+  },
+  "bin": {
+    "word": "bin",
+    "definition": "a container for putting waste or things in",
+    "variations": [
+      "bin",
+      "bins"
+    ],
+    "emoji": "🗑️"
+  },
+  "board": {
+    "word": "board",
+    "definition": "a flat surface in a classroom used for writing",
+    "variations": [
+      "board",
+      "boards"
+    ],
+    "emoji": "🧑‍🏫⬛"
+  },
+  "body": {
+    "word": "body",
+    "definition": "the whole physical person, including all its parts",
+    "variations": [
+      "body",
+      "bodies"
+    ],
+    "emoji": "🧍👤"
+  },
+  "book": {
+    "word": "book",
+    "definition": "pages fastened together for reading or writing",
+    "variations": [
+      "book",
+      "books"
+    ],
+    "emoji": "📖📚"
+  },
+  "borrow": {
+    "word": "borrow",
+    "definition": "to take something from someone for a short time and give it back later",
+    "variations": [
+      "borrow",
+      "borrows",
+      "borrowed",
+      "borrowing"
+    ],
+    "emoji": "✏️↩️"
+  },
+  "box": {
+    "word": "box",
+    "definition": "a container with sides used for holding things",
+    "variations": [
+      "box",
+      "boxes"
+    ],
+    "emoji": "📦"
+  },
+  "boy": {
+    "word": "boy",
+    "definition": "a male child",
+    "variations": [
+      "boy",
+      "boys"
+    ],
+    "emoji": "👦"
+  },
+  "brush": {
+    "word": "brush",
+    "definition": "to clean or smooth using a brush",
+    "variations": [
+      "brush",
+      "brushes",
+      "brushing"
+    ],
+    "emoji": "🪥✨"
+  },
+  "bus": {
+    "word": "bus",
+    "definition": "a large road vehicle that carries many people",
+    "variations": [
+      "bus",
+      "buses"
+    ],
+    "emoji": "🚌"
+  },
+  "buzz": {
+    "word": "buzz",
+    "definition": "the low sound made by some insects or machines",
+    "variations": [
+      "buzz",
+      "buzzes",
+      "buzzing",
+      "buzzed"
+    ],
+    "emoji": "🐝🎵"
+  },
+  "bye": {
+    "word": "bye",
+    "definition": "an informal word for goodbye",
+    "variations": [
+      "bye",
+      "bye-bye"
+    ],
+    "emoji": "👋😊"
+  },
+  "carry": {
+    "word": "carry",
+    "definition": "to hold and move something from one place to another",
+    "variations": [
+      "carry",
+      "carries",
+      "carrying"
+    ],
+    "emoji": "👐📚"
+  },
+  "cat": {
+    "word": "cat",
+    "definition": "a small animal that people keep as a pet",
+    "variations": [
+      "cat",
+      "cats"
+    ],
+    "emoji": "🐱"
+  },
+  "classroom": {
+    "word": "classroom",
+    "definition": "a room where pupils learn at school",
+    "variations": [
+      "classroom",
+      "classrooms"
+    ],
+    "emoji": "🏫🪑"
+  },
+  "clean": {
+    "word": "clean",
+    "definition": "to make something free from dirt",
+    "variations": [
+      "clean",
+      "cleans",
+      "cleaning"
+    ],
+    "emoji": "🧽✨"
+  },
+  "close": {
+    "word": "close",
+    "definition": "to shut something",
+    "variations": [
+      "close",
+      "closes",
+      "closing"
+    ],
+    "emoji": "🚪✋"
+  },
+  "coin": {
+    "word": "coin",
+    "definition": "a small flat piece of metal used as money",
+    "variations": [
+      "coin",
+      "coins"
+    ],
+    "emoji": "🪙"
+  },
+  "comb": {
+    "word": "comb",
+    "definition": "to make hair neat using a comb",
+    "variations": [
+      "comb",
+      "combs",
+      "combing"
+    ],
+    "emoji": "🪮💇"
+  },
+  "combine": {
+    "word": "combine",
+    "definition": "to join things together",
+    "variations": [
+      "combine",
+      "combines",
+      "combined",
+      "combining"
+    ],
+    "emoji": "➕🧩"
+  },
+  "cup": {
+    "word": "cup",
+    "definition": "a small container used for drinking",
+    "variations": [
+      "cup",
+      "cups"
+    ],
+    "emoji": "☕"
+  },
+  "dam": {
+    "word": "dam",
+    "definition": "a wall built to hold back water",
+    "variations": [
+      "dam",
+      "dams"
+    ],
+    "emoji": "🌊🧱"
+  },
+  "dig": {
+    "word": "dig",
+    "definition": "to make a hole in the ground or move soil",
+    "variations": [
+      "dig",
+      "digs",
+      "dug",
+      "digging"
+    ],
+    "emoji": "⛏️🕳️"
+  },
+  "dog": {
+    "word": "dog",
+    "definition": "an animal often kept as a pet",
+    "variations": [
+      "dog",
+      "dogs"
+    ],
+    "emoji": "🐶"
+  },
+  "door": {
+    "word": "door",
+    "definition": "a thing that opens and closes to let people enter or leave a room",
+    "variations": [
+      "door",
+      "doors"
+    ],
+    "emoji": "🚪🏠"
+  },
+  "dot": {
+    "word": "dot",
+    "definition": "a very small round mark",
+    "variations": [
+      "dot",
+      "dots"
+    ],
+    "emoji": "⚫"
+  },
+  "dove": {
+    "word": "dove",
+    "definition": "a kind of bird, often white or grey",
+    "variations": [
+      "dove",
+      "doves"
+    ],
+    "emoji": "🕊️"
+  },
+  "egg": {
+    "word": "egg",
+    "definition": "an oval object laid by a bird, used for food",
+    "variations": [
+      "egg",
+      "eggs"
+    ],
+    "emoji": "🥚"
+  },
+  "eight": {
+    "word": "eight",
+    "definition": "the number 8",
+    "variations": [
+      "eight"
+    ],
+    "emoji": "8️⃣"
+  },
+  "environment": {
+    "word": "environment",
+    "definition": "the place around us where we live or learn.",
+    "variations": [
+      "environment",
+      "environments"
+    ],
+    "emoji": "🌍🏡"
+  },
+  "escort": {
+    "word": "escort",
+    "definition": "to go with someone to protect or guide them",
+    "variations": [
+      "escort",
+      "escorts",
+      "escorted",
+      "escorting"
+    ],
+    "emoji": "🚶🛡️"
+  },
+  "evening": {
+    "word": "evening",
+    "definition": "the time at the end of the day, before night",
+    "variations": [
+      "evening",
+      "evenings"
+    ],
+    "emoji": "🌆🌙"
+  },
+  "excuse me": {
+    "word": "excuse me",
+    "definition": "polite words used to get someone’s attention or to pass by",
+    "variations": [
+      "excuse me"
+    ],
+    "emoji": "🙋🙏"
+  },
+  "expression": {
+    "word": "expression",
+    "definition": "a word or group of words used to say something",
+    "variations": [
+      "expression",
+      "expressions"
+    ],
+    "emoji": "💬🗣️"
+  },
+  "eye": {
+    "word": "eye",
+    "definition": "the body part used for seeing",
+    "variations": [
+      "eye",
+      "eyes"
+    ],
+    "emoji": "👁️📖"
+  },
+  "face": {
+    "word": "face",
+    "definition": "the front part of your head with your eyes, nose, and mouth",
+    "variations": [
+      "face",
+      "faces"
+    ],
+    "emoji": "🙂👤"
+  },
+  "fake": {
+    "word": "fake",
+    "definition": "not real; made to look real",
+    "variations": [
+      "fake",
+      "fakes",
+      "faked",
+      "faking"
+    ],
+    "emoji": "🎭❌"
+  },
+  "fan": {
+    "word": "fan",
+    "definition": "a machine or tool that moves air",
+    "variations": [
+      "fan",
+      "fans"
+    ],
+    "emoji": "🌀"
+  },
+  "far": {
+    "word": "far",
+    "definition": "a long distance away",
+    "variations": [
+      "far"
+    ],
+    "emoji": "🌍↔️"
+  },
+  "farm": {
+    "word": "farm",
+    "definition": "a place where animals are kept or crops are grown.",
+    "variations": [
+      "farm",
+      "farms"
+    ],
+    "emoji": "🚜🐄🌾"
+  },
+  "fat": {
+    "word": "fat",
+    "definition": "having too much body weight, or an oily part of food",
+    "variations": [
+      "fat",
+      "fatter",
+      "fattest"
+    ],
+    "emoji": "🍔"
+  },
+  "father": {
+    "word": "father",
+    "definition": "a male parent",
+    "variations": [
+      "father",
+      "fathers"
+    ],
+    "emoji": "👨❤️"
+  },
+  "final": {
+    "word": "final",
+    "definition": "at the end.",
+    "variations": [
+      "final",
+      "finals"
+    ],
+    "emoji": "🏁🔚"
+  },
+  "fine": {
+    "word": "fine",
+    "definition": "feeling well or okay",
+    "variations": [
+      "fine"
+    ],
+    "emoji": "😊👍"
+  },
+  "five": {
+    "word": "five",
+    "definition": "the number 5",
+    "variations": [
+      "five"
+    ],
+    "emoji": "5️⃣"
+  },
+  "fix": {
+    "word": "fix",
+    "definition": "to repair something or make it right",
+    "variations": [
+      "fix",
+      "fixes",
+      "fixing",
+      "fixed"
+    ],
+    "emoji": "🔧"
+  },
+  "floor": {
+    "word": "floor",
+    "definition": "the part of a room that you walk on",
+    "variations": [
+      "floor",
+      "floors"
+    ],
+    "emoji": "🏠🦶"
+  },
+  "football": {
+    "word": "football",
+    "definition": "a game in which players kick a ball to score goals",
+    "variations": [
+      "football",
+      "footballs"
+    ],
+    "emoji": "⚽🥅"
+  },
+  "form": {
+    "word": "form",
+    "definition": "to make or create something",
+    "variations": [
+      "form",
+      "forms",
+      "formed",
+      "forming"
+    ],
+    "emoji": "🛠️✍️"
+  },
+  "four": {
+    "word": "four",
+    "definition": "the number 4",
+    "variations": [
+      "four"
+    ],
+    "emoji": "4️⃣"
+  },
+  "fox": {
+    "word": "fox",
+    "definition": "a wild animal with pointed ears and a bushy tail",
+    "variations": [
+      "fox",
+      "foxes"
+    ],
+    "emoji": "🦊"
+  },
+  "friend": {
+    "word": "friend",
+    "definition": "a person you like and spend time with",
+    "variations": [
+      "friend",
+      "friends"
+    ],
+    "emoji": "🧑‍🤝‍🧑😊"
+  },
+  "fun": {
+    "word": "fun",
+    "definition": "enjoyment or pleasure",
+    "variations": [
+      "fun"
+    ],
+    "emoji": "😄🎉"
+  },
+  "game": {
+    "word": "game",
+    "definition": "an activity with rules that people play for fun or learning.",
+    "variations": [
+      "game",
+      "games"
+    ],
+    "emoji": "🎮🧩"
+  },
+  "garden": {
+    "word": "garden",
+    "definition": "a piece of ground where plants or flowers grow",
+    "variations": [
+      "garden",
+      "gardens"
+    ],
+    "emoji": "🌷🌿"
+  },
+  "get": {
+    "word": "get",
+    "definition": "to receive, take, or obtain something",
+    "variations": [
+      "get",
+      "gets",
+      "got",
+      "getting"
+    ],
+    "emoji": "🙌"
+  },
+  "girl": {
+    "word": "girl",
+    "definition": "a female child",
+    "variations": [
+      "girl",
+      "girls"
+    ],
+    "emoji": "👧"
+  },
+  "go": {
+    "word": "go",
+    "definition": "to move from one place to another",
+    "variations": [
+      "go",
+      "goes",
+      "going"
+    ],
+    "emoji": "🚶➡️"
+  },
+  "good night": {
+    "word": "good night",
+    "definition": "words you say to someone in the evening or before sleep",
+    "variations": [
+      "good night"
+    ],
+    "emoji": "🌙😴"
+  },
+  "goodbye": {
+    "word": "goodbye",
+    "definition": "something you say when leaving someone",
+    "variations": [
+      "goodbye",
+      "good-bye"
+    ],
+    "emoji": "👋🙂"
+  },
+  "greeting": {
+    "word": "greeting",
+    "definition": "words or actions used when meeting someone",
+    "variations": [
+      "greeting",
+      "greetings"
+    ],
+    "emoji": "👋😊"
+  },
+  "hair": {
+    "word": "hair",
+    "definition": "the strands that grow on your head",
+    "variations": [
+      "hair"
+    ],
+    "emoji": "💇👩"
+  },
+  "hand": {
+    "word": "hand",
+    "definition": "the part at the end of your arm with fingers",
+    "variations": [
+      "hand",
+      "hands"
+    ],
+    "emoji": "✋🖐️"
+  },
+  "hat": {
+    "word": "hat",
+    "definition": "something you wear on your head",
+    "variations": [
+      "hat",
+      "hats"
+    ],
+    "emoji": "👒🧢"
+  },
+  "head": {
+    "word": "head",
+    "definition": "the top part of your body with your brain, eyes, ears, nose, and mouth",
+    "variations": [
+      "head",
+      "heads"
+    ],
+    "emoji": "🧑🙂"
+  },
+  "hello": {
+    "word": "hello",
+    "definition": "a word used to greet someone",
+    "variations": [
+      "hello",
+      "hellos"
+    ],
+    "emoji": "👋🙂"
+  },
+  "hen": {
+    "word": "hen",
+    "definition": "a female chicken",
+    "variations": [
+      "hen",
+      "hens"
+    ],
+    "emoji": "🐔"
+  },
+  "hide": {
+    "word": "hide",
+    "definition": "to go where others cannot see you",
+    "variations": [
+      "hide",
+      "hides",
+      "hid",
+      "hidden",
+      "hiding"
+    ],
+    "emoji": "🙈🫣"
+  },
+  "home": {
+    "word": "home",
+    "definition": "the place where you live",
+    "variations": [
+      "home",
+      "homes"
+    ],
+    "emoji": "🏠❤️"
+  },
+  "homework": {
+    "word": "homework",
+    "definition": "school work that you do at home",
+    "variations": [
+      "homework"
+    ],
+    "emoji": "✏️🏠"
+  },
+  "hub": {
+    "word": "hub",
+    "definition": "the center of something, like the middle part of a wheel",
+    "variations": [
+      "hub",
+      "hubs"
+    ],
+    "emoji": "🛞⚙️"
+  },
+  "hug": {
+    "word": "hug",
+    "definition": "to hold someone closely with your arms",
+    "variations": [
+      "hug",
+      "hugs",
+      "hugged",
+      "hugging"
+    ],
+    "emoji": "🤗❤️"
+  },
+  "ice": {
+    "word": "ice",
+    "definition": "frozen water",
+    "variations": [
+      "ice"
+    ],
+    "emoji": "🧊"
+  },
+  "imitate": {
+    "word": "imitate",
+    "definition": "to copy what someone or something does.",
+    "variations": [
+      "imitate",
+      "imitates",
+      "imitated",
+      "imitating"
+    ],
+    "emoji": "🪞🎭"
+  },
+  "initial": {
+    "word": "initial",
+    "definition": "at the beginning.",
+    "variations": [
+      "initial",
+      "initials"
+    ],
+    "emoji": "1️⃣🔤"
+  },
+  "instruction": {
+    "word": "instruction",
+    "definition": "something that tells you what to do.",
+    "variations": [
+      "instruction",
+      "instructions"
+    ],
+    "emoji": "📘👉"
+  },
+  "introduce": {
+    "word": "introduce",
+    "definition": "to tell someone a name or help people meet each other",
+    "variations": [
+      "introduce",
+      "introduces",
+      "introduced",
+      "introducing"
+    ],
+    "emoji": "👋🗣️"
+  },
+  "jam": {
+    "word": "jam",
+    "definition": "a sweet food made from fruit and sugar",
+    "variations": [
+      "jam",
+      "jams"
+    ],
+    "emoji": "🍓🍯"
+  },
+  "jet": {
+    "word": "jet",
+    "definition": "a fast aircraft",
+    "variations": [
+      "jet",
+      "jets"
+    ],
+    "emoji": "✈️"
+  },
+  "job": {
+    "word": "job",
+    "definition": "the work that a person does",
+    "variations": [
+      "job",
+      "jobs"
+    ],
+    "emoji": "💼🧑‍🏭"
+  },
+  "jog": {
+    "word": "jog",
+    "definition": "to run slowly",
+    "variations": [
+      "jog",
+      "jogs",
+      "jogged",
+      "jogging"
+    ],
+    "emoji": "🏃👟"
+  },
+  "jug": {
+    "word": "jug",
+    "definition": "a container with a handle for holding liquids",
+    "variations": [
+      "jug",
+      "jugs"
+    ],
+    "emoji": "🍶🥛"
+  },
+  "jump": {
+    "word": "jump",
+    "definition": "to push yourself off the ground with your feet",
+    "variations": [
+      "jump",
+      "jumps",
+      "jumping"
+    ],
+    "emoji": "🤸⬆️"
+  },
+  "key": {
+    "word": "key",
+    "definition": "a small metal object used to open a lock",
+    "variations": [
+      "key",
+      "keys"
+    ],
+    "emoji": "🔑"
+  },
+  "kid": {
+    "word": "kid",
+    "definition": "a child",
+    "variations": [
+      "kid",
+      "kids"
+    ],
+    "emoji": "🧒👦"
+  },
+  "kind": {
+    "word": "kind",
+    "definition": "showing care and being nice to others",
+    "variations": [
+      "kind",
+      "kinder",
+      "kindest",
+      "kindness"
+    ],
+    "emoji": "💖😊"
+  },
+  "kit": {
+    "word": "kit",
+    "definition": "a set of things needed for a purpose",
+    "variations": [
+      "kit",
+      "kits"
+    ],
+    "emoji": "🧰"
+  },
+  "kite": {
+    "word": "kite",
+    "definition": "a light toy that flies in the wind",
+    "variations": [
+      "kite",
+      "kites"
+    ],
+    "emoji": "🪁"
+  },
+  "lake": {
+    "word": "lake",
+    "definition": "a large area of water surrounded by land",
+    "variations": [
+      "lake",
+      "lakes"
+    ],
+    "emoji": "🏞️💧"
+  },
+  "leg": {
+    "word": "leg",
+    "definition": "one of the body parts used for standing and walking",
+    "variations": [
+      "leg",
+      "legs"
+    ],
+    "emoji": "🦵"
+  },
+  "letter": {
+    "word": "letter",
+    "definition": "a written sign in the alphabet, such as a, b, or c",
+    "variations": [
+      "letter",
+      "letters"
+    ],
+    "emoji": "🔠✍️"
+  },
+  "life": {
+    "word": "life",
+    "definition": "the state of being alive",
+    "variations": [
+      "life",
+      "lives"
+    ],
+    "emoji": "🌱❤️"
+  },
+  "light": {
+    "word": "light",
+    "definition": "brightness that helps us see",
+    "variations": [
+      "light",
+      "lights"
+    ],
+    "emoji": "💡✨"
+  },
+  "like": {
+    "word": "like",
+    "definition": "to enjoy something or think it is good",
+    "variations": [
+      "like",
+      "likes",
+      "liked",
+      "liking"
+    ],
+    "emoji": "😊👍"
+  },
+  "lip": {
+    "word": "lip",
+    "definition": "one of the soft parts around the mouth",
+    "variations": [
+      "lip",
+      "lips"
+    ],
+    "emoji": "👄"
+  },
+  "listen": {
+    "word": "listen",
+    "definition": "to pay attention to sounds or to what someone is saying.",
+    "variations": [
+      "listen",
+      "listens",
+      "listened",
+      "listening"
+    ],
+    "emoji": "👂🎧"
+  },
+  "live": {
+    "word": "live",
+    "definition": "to have your home in a place",
+    "variations": [
+      "live",
+      "lives",
+      "lived",
+      "living"
+    ],
+    "emoji": "🏠📍"
+  },
+  "lock": {
+    "word": "lock",
+    "definition": "to fasten something so it cannot be opened",
+    "variations": [
+      "lock",
+      "locks",
+      "locking"
+    ],
+    "emoji": "🔒🚪"
+  },
+  "log": {
+    "word": "log",
+    "definition": "a thick piece of a tree trunk or branch",
+    "variations": [
+      "log",
+      "logs"
+    ],
+    "emoji": "🪵"
+  },
+  "mad": {
+    "word": "mad",
+    "definition": "very angry",
+    "variations": [
+      "mad",
+      "madder",
+      "maddest"
+    ],
+    "emoji": "😠💢"
+  },
+  "make": {
+    "word": "make",
+    "definition": "to put something together or get it ready",
+    "variations": [
+      "make",
+      "makes",
+      "making"
+    ],
+    "emoji": "🛏️👐"
+  },
+  "man": {
+    "word": "man",
+    "definition": "an adult male person",
+    "variations": [
+      "man",
+      "men"
+    ],
+    "emoji": "👨"
+  },
+  "market": {
+    "word": "market",
+    "definition": "a place where people buy and sell things",
+    "variations": [
+      "market",
+      "markets"
+    ],
+    "emoji": "🛒🍎"
+  },
+  "mat": {
+    "word": "mat",
+    "definition": "a small piece of material placed on the floor or table",
+    "variations": [
+      "mat",
+      "mats"
+    ],
+    "emoji": "🧺"
+  },
+  "meal": {
+    "word": "meal",
+    "definition": "food eaten at one time, such as breakfast or lunch",
+    "variations": [
+      "meal",
+      "meals"
+    ],
+    "emoji": "🍽️"
+  },
+  "men": {
+    "word": "men",
+    "definition": "more than one adult male person",
+    "variations": [
+      "man",
+      "men"
+    ],
+    "emoji": "👨👨‍👨‍👦"
+  },
+  "missing": {
+    "word": "missing",
+    "definition": "not there when it should be there",
+    "variations": [
+      "missing"
+    ],
+    "emoji": "❓🕳️"
+  },
+  "mix": {
+    "word": "mix",
+    "definition": "to put things together so they combine",
+    "variations": [
+      "mix",
+      "mixes",
+      "mixed",
+      "mixing"
+    ],
+    "emoji": "🥣🔄"
+  },
+  "mob": {
+    "word": "mob",
+    "definition": "a large crowd of people",
+    "variations": [
+      "mob",
+      "mobs"
+    ],
+    "emoji": "👥🧍"
+  },
+  "mop": {
+    "word": "mop",
+    "definition": "to clean a floor with a mop",
+    "variations": [
+      "mop",
+      "mops",
+      "mopping"
+    ],
+    "emoji": "🧼🪣"
+  },
+  "morning": {
+    "word": "morning",
+    "definition": "the early part of the day before দুপুর/afternoon",
+    "variations": [
+      "morning",
+      "mornings"
+    ],
+    "emoji": "🌅☀️"
+  },
+  "mother": {
+    "word": "mother",
+    "definition": "a female parent",
+    "variations": [
+      "mother",
+      "mothers"
+    ],
+    "emoji": "👩❤️"
+  },
+  "mud": {
+    "word": "mud",
+    "definition": "soft wet earth",
+    "variations": [
+      "mud"
+    ],
+    "emoji": "🟤💧"
+  },
+  "mug": {
+    "word": "mug",
+    "definition": "a cup with a handle",
+    "variations": [
+      "mug",
+      "mugs"
+    ],
+    "emoji": "☕杯"
+  },
+  "mum": {
+    "word": "mum",
+    "definition": "a word for mother",
+    "variations": [
+      "mum",
+      "mums"
+    ],
+    "emoji": "👩❤️"
+  },
+  "name": {
+    "word": "name",
+    "definition": "the word people use to call a person or thing",
+    "variations": [
+      "name",
+      "names"
+    ],
+    "emoji": "🏷️👤"
+  },
+  "net": {
+    "word": "net",
+    "definition": "material made of strings tied together with holes between them",
+    "variations": [
+      "net",
+      "nets"
+    ],
+    "emoji": "🥅"
+  },
+  "nice": {
+    "word": "nice",
+    "definition": "pleasant, kind, or good",
+    "variations": [
+      "nice",
+      "nicer",
+      "nicest"
+    ],
+    "emoji": "😊✨"
+  },
+  "night": {
+    "word": "night",
+    "definition": "the dark time of day when people usually sleep",
+    "variations": [
+      "night",
+      "nights"
+    ],
+    "emoji": "🌙⭐"
+  },
+  "nil": {
+    "word": "nil",
+    "definition": "nothing or zero in a game score",
+    "variations": [
+      "nil"
+    ],
+    "emoji": "0️⃣🏅"
+  },
+  "nine": {
+    "word": "nine",
+    "definition": "the number 9",
+    "variations": [
+      "nine"
+    ],
+    "emoji": "9️⃣"
+  },
+  "nod": {
+    "word": "nod",
+    "definition": "to move your head up and down to say yes or show understanding",
+    "variations": [
+      "nod",
+      "nods",
+      "nodded",
+      "nodding"
+    ],
+    "emoji": "🙂⬇️"
+  },
+  "number": {
+    "word": "number",
+    "definition": "a word or sign used for counting, like 1, 2, or 3.",
+    "variations": [
+      "number",
+      "numbers"
+    ],
+    "emoji": "🔢1️⃣"
+  },
+  "nut": {
+    "word": "nut",
+    "definition": "a hard-shelled fruit with an edible seed inside",
+    "variations": [
+      "nut",
+      "nuts"
+    ],
+    "emoji": "🥜"
+  },
+  "object": {
+    "word": "object",
+    "definition": "a thing that you can see or touch.",
+    "variations": [
+      "object",
+      "objects"
+    ],
+    "emoji": "📦🧸"
+  },
+  "one": {
+    "word": "one",
+    "definition": "the number 1",
+    "variations": [
+      "one"
+    ],
+    "emoji": "1️⃣"
+  },
+  "open": {
+    "word": "open",
+    "definition": "to move something so it is not closed",
+    "variations": [
+      "open",
+      "opens",
+      "opening"
+    ],
+    "emoji": "📖🚪"
+  },
+  "ox": {
+    "word": "ox",
+    "definition": "a large farm animal with horns, often used for work",
+    "variations": [
+      "ox",
+      "oxen"
+    ],
+    "emoji": "🐂"
+  },
+  "pan": {
+    "word": "pan",
+    "definition": "a metal container used for cooking food",
+    "variations": [
+      "pan",
+      "pans"
+    ],
+    "emoji": "🍳"
+  },
+  "parent": {
+    "word": "parent",
+    "definition": "a mother or father",
+    "variations": [
+      "parent",
+      "parents"
+    ],
+    "emoji": "👪❤️"
+  },
+  "parrot": {
+    "word": "parrot",
+    "definition": "a colorful bird that can copy sounds",
+    "variations": [
+      "parrot",
+      "parrots"
+    ],
+    "emoji": "🦜"
+  },
+  "part": {
+    "word": "part",
+    "definition": "a piece or section of something",
+    "variations": [
+      "part",
+      "parts"
+    ],
+    "emoji": "🧩📍"
+  },
+  "peacock": {
+    "word": "peacock",
+    "definition": "a large bird with beautiful colorful tail feathers",
+    "variations": [
+      "peacock",
+      "peacocks"
+    ],
+    "emoji": "🦚"
+  },
+  "peg": {
+    "word": "peg",
+    "definition": "a small piece used to hold or hang something",
+    "variations": [
+      "peg",
+      "pegs"
+    ],
+    "emoji": "🪝🧺"
+  },
+  "pen": {
+    "word": "pen",
+    "definition": "a tool used for writing with ink",
+    "variations": [
+      "pen",
+      "pens"
+    ],
+    "emoji": "🖊️"
+  },
+  "people": {
+    "word": "people",
+    "definition": "human beings; men, women, and children",
+    "variations": [
+      "people"
+    ],
+    "emoji": "👥🙂"
+  },
+  "pet": {
+    "word": "pet",
+    "definition": "an animal kept at home for company",
+    "variations": [
+      "pet",
+      "pets"
+    ],
+    "emoji": "🐾🏠"
+  },
+  "picture": {
+    "word": "picture",
+    "definition": "an image or drawing that shows something",
+    "variations": [
+      "picture",
+      "pictures"
+    ],
+    "emoji": "🖼️📷"
+  },
+  "pin": {
+    "word": "pin",
+    "definition": "a small thin pointed piece of metal used for fastening things",
+    "variations": [
+      "pin",
+      "pins"
+    ],
+    "emoji": "📍🧷"
+  },
+  "pit": {
+    "word": "pit",
+    "definition": "a hole in the ground or a small hard seed inside some fruits",
+    "variations": [
+      "pit",
+      "pits"
+    ],
+    "emoji": "🕳️"
+  },
+  "plant": {
+    "word": "plant",
+    "definition": "a living thing that grows in soil and makes its own food",
+    "variations": [
+      "plant",
+      "plants"
+    ],
+    "emoji": "🪴🌿"
+  },
+  "play": {
+    "word": "play",
+    "definition": "to take part in a game or fun activity",
+    "variations": [
+      "play",
+      "plays",
+      "played",
+      "playing"
+    ],
+    "emoji": "⚽🎮"
+  },
+  "please": {
+    "word": "please",
+    "definition": "a polite word used when asking for something",
+    "variations": [
+      "please"
+    ],
+    "emoji": "🙏🙂"
+  },
+  "polite": {
+    "word": "polite",
+    "definition": "showing good manners and speaking in a kind and respectful way",
+    "variations": [
+      "polite",
+      "politely",
+      "politeness"
+    ],
+    "emoji": "😊🙏"
+  },
+  "pot": {
+    "word": "pot",
+    "definition": "a container used for cooking or holding things",
+    "variations": [
+      "pot",
+      "pots"
+    ],
+    "emoji": "🫕"
+  },
+  "pronounce": {
+    "word": "pronounce",
+    "definition": "to say a word or sound in a particular way",
+    "variations": [
+      "pronounce",
+      "pronounces",
+      "pronounced",
+      "pronouncing"
+    ],
+    "emoji": "🗣️🔊"
+  },
+  "pub": {
+    "word": "pub",
+    "definition": "a place where drinks are sold and people meet",
+    "variations": [
+      "pub",
+      "pubs"
+    ],
+    "emoji": "🍺🏠"
+  },
+  "puppy": {
+    "word": "puppy",
+    "definition": "a young dog",
+    "variations": [
+      "puppy",
+      "puppies"
+    ],
+    "emoji": "🐶"
+  },
+  "put": {
+    "word": "put",
+    "definition": "to place something somewhere",
+    "variations": [
+      "put",
+      "puts",
+      "putting"
+    ],
+    "emoji": "📍"
+  },
+  "quack": {
+    "word": "quack",
+    "definition": "the sound a duck makes",
+    "variations": [
+      "quack",
+      "quacks",
+      "quacked",
+      "quacking"
+    ],
+    "emoji": "🦆🔊"
+  },
+  "quick": {
+    "word": "quick",
+    "definition": "fast; done in a short time",
+    "variations": [
+      "quick",
+      "quicker",
+      "quickest"
+    ],
+    "emoji": "⚡🏃"
+  },
+  "quit": {
+    "word": "quit",
+    "definition": "to stop doing something",
+    "variations": [
+      "quit",
+      "quits",
+      "quitting"
+    ],
+    "emoji": "🛑"
+  },
+  "quiz": {
+    "word": "quiz",
+    "definition": "a short test to check what someone knows",
+    "variations": [
+      "quiz",
+      "quizzes"
+    ],
+    "emoji": "❓📝"
+  },
+  "rain": {
+    "word": "rain",
+    "definition": "water that falls from clouds",
+    "variations": [
+      "rain",
+      "rains",
+      "raining"
+    ],
+    "emoji": "🌧️"
+  },
+  "raise": {
+    "word": "raise",
+    "definition": "to lift something up",
+    "variations": [
+      "raise",
+      "raises",
+      "raising"
+    ],
+    "emoji": "✋⬆️"
+  },
+  "rake": {
+    "word": "rake",
+    "definition": "a tool used for gathering leaves or smoothing soil",
+    "variations": [
+      "rake",
+      "rakes"
+    ],
+    "emoji": "🍂🧹"
+  },
+  "rat": {
+    "word": "rat",
+    "definition": "a small animal with a long tail",
+    "variations": [
+      "rat",
+      "rats"
+    ],
+    "emoji": "🐀"
+  },
+  "read": {
+    "word": "read",
+    "definition": "to look at words and understand them",
+    "variations": [
+      "read",
+      "reads",
+      "reading"
+    ],
+    "emoji": "📖👀"
+  },
+  "recognise": {
+    "word": "recognise",
+    "definition": "to know something because you have seen or heard it before.",
+    "variations": [
+      "recognise",
+      "recognises",
+      "recognised",
+      "recognising"
+    ],
+    "emoji": "👀💡"
+  },
+  "red": {
+    "word": "red",
+    "definition": "a color like blood or a ripe tomato",
+    "variations": [
+      "red",
+      "redder",
+      "reddest"
+    ],
+    "emoji": "🔴❤️"
+  },
+  "relationship": {
+    "word": "relationship",
+    "definition": "the way two things are connected.",
+    "variations": [
+      "relationship",
+      "relationships"
+    ],
+    "emoji": "🔗🤝"
+  },
+  "rice": {
+    "word": "rice",
+    "definition": "small white or brown grains eaten as food",
+    "variations": [
+      "rice"
+    ],
+    "emoji": "🍚"
+  },
+  "ride": {
+    "word": "ride",
+    "definition": "to travel on or in something, like a bike or car",
+    "variations": [
+      "ride",
+      "rides",
+      "rode",
+      "ridden",
+      "riding"
+    ],
+    "emoji": "🚲🚗"
+  },
+  "rim": {
+    "word": "rim",
+    "definition": "the outer edge of something round",
+    "variations": [
+      "rim",
+      "rims"
+    ],
+    "emoji": "⭕"
+  },
+  "ripe": {
+    "word": "ripe",
+    "definition": "ready to eat or fully grown",
+    "variations": [
+      "ripe",
+      "riper",
+      "ripest"
+    ],
+    "emoji": "🍎🍌"
+  },
+  "rope": {
+    "word": "rope",
+    "definition": "a thick strong cord",
+    "variations": [
+      "rope",
+      "ropes"
+    ],
+    "emoji": "🪢"
+  },
+  "rug": {
+    "word": "rug",
+    "definition": "a piece of thick cloth used to cover part of a floor",
+    "variations": [
+      "rug",
+      "rugs"
+    ],
+    "emoji": "🧶"
+  },
+  "run": {
+    "word": "run",
+    "definition": "to move quickly on your feet",
+    "variations": [
+      "run",
+      "runs",
+      "running",
+      "ran"
+    ],
+    "emoji": "🏃"
+  },
+  "sad": {
+    "word": "sad",
+    "definition": "feeling unhappy",
+    "variations": [
+      "sad",
+      "sadder",
+      "saddest"
+    ],
+    "emoji": "😢"
+  },
+  "school": {
+    "word": "school",
+    "definition": "a place where children go to learn",
+    "variations": [
+      "school",
+      "schools"
+    ],
+    "emoji": "🏫📚"
+  },
+  "set": {
+    "word": "set",
+    "definition": "to put something in a place or to make it ready",
+    "variations": [
+      "set",
+      "sets",
+      "setting"
+    ],
+    "emoji": "🧩"
+  },
+  "seven": {
+    "word": "seven",
+    "definition": "the number 7",
+    "variations": [
+      "seven"
+    ],
+    "emoji": "7️⃣"
+  },
+  "shoe": {
+    "word": "shoe",
+    "definition": "something worn on your foot",
+    "variations": [
+      "shoe",
+      "shoes"
+    ],
+    "emoji": "👟"
+  },
+  "sing": {
+    "word": "sing",
+    "definition": "to make music with your voice",
+    "variations": [
+      "sing",
+      "sings",
+      "sang",
+      "singing"
+    ],
+    "emoji": "🎤🎶"
+  },
+  "sip": {
+    "word": "sip",
+    "definition": "to drink a small amount at a time",
+    "variations": [
+      "sip",
+      "sips",
+      "sipping",
+      "sipped"
+    ],
+    "emoji": "🥤"
+  },
+  "sit": {
+    "word": "sit",
+    "definition": "to rest on a chair, seat, or the ground",
+    "variations": [
+      "sit",
+      "sits",
+      "sat",
+      "sitting"
+    ],
+    "emoji": "🪑"
+  },
+  "sit down": {
+    "word": "sit down",
+    "definition": "to move into a seated position",
+    "variations": [
+      "sit down",
+      "sits down",
+      "sitting down"
+    ],
+    "emoji": "🪑⬇️"
+  },
+  "six": {
+    "word": "six",
+    "definition": "the number 6",
+    "variations": [
+      "six"
+    ],
+    "emoji": "6️⃣"
+  },
+  "sleep well": {
+    "word": "sleep well",
+    "definition": "words you say to wish someone a good sleep",
+    "variations": [
+      "sleep well"
+    ],
+    "emoji": "😴🌙"
+  },
+  "snake": {
+    "word": "snake",
+    "definition": "a long animal with no legs",
+    "variations": [
+      "snake",
+      "snakes"
+    ],
+    "emoji": "🐍"
+  },
+  "sob": {
+    "word": "sob",
+    "definition": "to cry noisily",
+    "variations": [
+      "sob",
+      "sobs",
+      "sobbing",
+      "sobbed"
+    ],
+    "emoji": "😭"
+  },
+  "some": {
+    "word": "some",
+    "definition": "an amount or number that is not all and not exact",
+    "variations": [
+      "some"
+    ],
+    "emoji": "🤏🔢"
+  },
+  "son": {
+    "word": "son",
+    "definition": "a male child of a parent",
+    "variations": [
+      "son",
+      "sons"
+    ],
+    "emoji": "👦👨‍👩‍👦"
+  },
+  "song": {
+    "word": "song",
+    "definition": "words with music that people sing",
+    "variations": [
+      "song",
+      "songs"
+    ],
+    "emoji": "🎵🎤"
+  },
+  "sorry": {
+    "word": "sorry",
+    "definition": "a word you say when you did something wrong or want to apologize",
+    "variations": [
+      "sorry"
+    ],
+    "emoji": "😔🙏"
+  },
+  "sound": {
+    "word": "sound",
+    "definition": "something you hear, or the way a letter is spoken",
+    "variations": [
+      "sound",
+      "sounds"
+    ],
+    "emoji": "🔊🎵"
+  },
+  "speak": {
+    "word": "speak",
+    "definition": "to say words with your voice.",
+    "variations": [
+      "speak",
+      "speaks",
+      "speaking",
+      "spoke"
+    ],
+    "emoji": "🗣️💬"
+  },
+  "spoken": {
+    "word": "spoken",
+    "definition": "said by voice, not written.",
+    "variations": [
+      "spoken"
+    ],
+    "emoji": "🗣️👂"
+  },
+  "stand up": {
+    "word": "stand up",
+    "definition": "to rise to your feet",
+    "variations": [
+      "stand up",
+      "stands up",
+      "standing up"
+    ],
+    "emoji": "🧍⬆️"
+  },
+  "stick": {
+    "word": "stick",
+    "definition": "a thin piece of wood from a tree",
+    "variations": [
+      "stick",
+      "sticks"
+    ],
+    "emoji": "🪵"
+  },
+  "sum": {
+    "word": "sum",
+    "definition": "the total when numbers are added together",
+    "variations": [
+      "sum",
+      "sums"
+    ],
+    "emoji": "➕🔢"
+  },
+  "sun": {
+    "word": "sun",
+    "definition": "the star that gives us light and heat during the day",
+    "variations": [
+      "sun"
+    ],
+    "emoji": "☀️"
+  },
+  "sunflower": {
+    "word": "sunflower",
+    "definition": "a tall plant with a large yellow flower",
+    "variations": [
+      "sunflower",
+      "sunflowers"
+    ],
+    "emoji": "🌻"
+  },
+  "sweep": {
+    "word": "sweep",
+    "definition": "to clean a floor using a broom",
+    "variations": [
+      "sweep",
+      "sweeps",
+      "sweeping"
+    ],
+    "emoji": "🧹✨"
+  },
+  "sweet": {
+    "word": "sweet",
+    "definition": "a small sugary food such as candy",
+    "variations": [
+      "sweet",
+      "sweets"
+    ],
+    "emoji": "🍬🍭"
+  },
+  "tag": {
+    "word": "tag",
+    "definition": "a small label or a game where players chase each other",
+    "variations": [
+      "tag",
+      "tags"
+    ],
+    "emoji": "🏷️"
+  },
+  "take care": {
+    "word": "take care",
+    "definition": "words you say to wish someone safety and well-being",
+    "variations": [
+      "take care"
+    ],
+    "emoji": "💛👋"
+  },
+  "tap": {
+    "word": "tap",
+    "definition": "to touch something lightly, or a device that lets water come out",
+    "variations": [
+      "tap",
+      "taps",
+      "tapped",
+      "tapping"
+    ],
+    "emoji": "🚰👆"
+  },
+  "tax": {
+    "word": "tax",
+    "definition": "money people pay to the government",
+    "variations": [
+      "tax",
+      "taxes"
+    ],
+    "emoji": "💰"
+  },
+  "teacher": {
+    "word": "teacher",
+    "definition": "a person who helps students learn",
+    "variations": [
+      "teacher",
+      "teachers"
+    ],
+    "emoji": "👩‍🏫👨‍🏫"
+  },
+  "teeth": {
+    "word": "teeth",
+    "definition": "the hard white parts in your mouth that you use for biting and chewing",
+    "variations": [
+      "tooth",
+      "teeth"
+    ],
+    "emoji": "🦷😁"
+  },
+  "ten": {
+    "word": "ten",
+    "definition": "the number 10",
+    "variations": [
+      "ten"
+    ],
+    "emoji": "🔟"
+  },
+  "thank": {
+    "word": "thank",
+    "definition": "to tell someone you are grateful",
+    "variations": [
+      "thank",
+      "thanks",
+      "thanked",
+      "thanking"
+    ],
+    "emoji": "🙏😊"
+  },
+  "thank you": {
+    "word": "thank you",
+    "definition": "words you say to show you are grateful for something",
+    "variations": [
+      "thank you",
+      "thanks"
+    ],
+    "emoji": "🙏😊"
+  },
+  "three": {
+    "word": "three",
+    "definition": "the number 3",
+    "variations": [
+      "three"
+    ],
+    "emoji": "3️⃣"
+  },
+  "tie": {
+    "word": "tie",
+    "definition": "a strip of cloth worn around the neck, or to fasten something",
+    "variations": [
+      "tie",
+      "ties",
+      "tied",
+      "tying"
+    ],
+    "emoji": "👔🎀"
+  },
+  "time": {
+    "word": "time",
+    "definition": "minutes, hours, days, or the moment when something happens",
+    "variations": [
+      "time",
+      "times"
+    ],
+    "emoji": "⏰⌛"
+  },
+  "tin": {
+    "word": "tin",
+    "definition": "a small metal container used for keeping food or other things",
+    "variations": [
+      "tin",
+      "tins"
+    ],
+    "emoji": "🥫🔩"
+  },
+  "together": {
+    "word": "together",
+    "definition": "with another person or other people",
+    "variations": [
+      "together"
+    ],
+    "emoji": "👫🤝"
+  },
+  "top": {
+    "word": "top",
+    "definition": "the highest part of something",
+    "variations": [
+      "top",
+      "tops"
+    ],
+    "emoji": "🔝"
+  },
+  "toy": {
+    "word": "toy",
+    "definition": "an object a child plays with",
+    "variations": [
+      "toy",
+      "toys"
+    ],
+    "emoji": "🧸"
+  },
+  "tub": {
+    "word": "tub",
+    "definition": "a large container that holds water or other things",
+    "variations": [
+      "tub",
+      "tubs"
+    ],
+    "emoji": "🛁"
+  },
+  "two": {
+    "word": "two",
+    "definition": "the number 2",
+    "variations": [
+      "two"
+    ],
+    "emoji": "2️⃣"
+  },
+  "up": {
+    "word": "up",
+    "definition": "toward a higher place",
+    "variations": [
+      "up"
+    ],
+    "emoji": "⬆️"
+  },
+  "use": {
+    "word": "use",
+    "definition": "the job or purpose of something",
+    "variations": [
+      "use",
+      "uses",
+      "used",
+      "using"
+    ],
+    "emoji": "🛠️✅"
+  },
+  "van": {
+    "word": "van",
+    "definition": "a road vehicle used to carry people or goods",
+    "variations": [
+      "van",
+      "vans"
+    ],
+    "emoji": "🚐"
+  },
+  "vase": {
+    "word": "vase",
+    "definition": "a container used for holding flowers",
+    "variations": [
+      "vase",
+      "vases"
+    ],
+    "emoji": "🏺🌷"
+  },
+  "vein": {
+    "word": "vein",
+    "definition": "a tube in the body that carries blood",
+    "variations": [
+      "vein",
+      "veins"
+    ],
+    "emoji": "🩸🫀"
+  },
+  "vest": {
+    "word": "vest",
+    "definition": "a piece of clothing worn on the upper body",
+    "variations": [
+      "vest",
+      "vests"
+    ],
+    "emoji": "🦺"
+  },
+  "vet": {
+    "word": "vet",
+    "definition": "an animal doctor",
+    "variations": [
+      "vet",
+      "vets"
+    ],
+    "emoji": "🩺🐶"
+  },
+  "video": {
+    "word": "video",
+    "definition": "moving pictures recorded or shown on a screen",
+    "variations": [
+      "video",
+      "videos"
+    ],
+    "emoji": "🎥📺"
+  },
+  "village": {
+    "word": "village",
+    "definition": "a small group of houses and people living together in the countryside",
+    "variations": [
+      "village",
+      "villages"
+    ],
+    "emoji": "🏡"
+  },
+  "visit": {
+    "word": "visit",
+    "definition": "to go and see a person or place",
+    "variations": [
+      "visit",
+      "visits",
+      "visited",
+      "visiting"
+    ],
+    "emoji": "🏠👋"
+  },
+  "waist": {
+    "word": "waist",
+    "definition": "the middle part of your body above the hips",
+    "variations": [
+      "waist",
+      "waists"
+    ],
+    "emoji": "🧍↔️"
+  },
+  "wake up": {
+    "word": "wake up",
+    "definition": "to stop sleeping",
+    "variations": [
+      "wake up",
+      "wakes up",
+      "waking up"
+    ],
+    "emoji": "⏰🌞"
+  },
+  "wash": {
+    "word": "wash",
+    "definition": "to clean with water",
+    "variations": [
+      "wash",
+      "washes",
+      "washing"
+    ],
+    "emoji": "💦🧼"
+  },
+  "water": {
+    "word": "water",
+    "definition": "to pour water on plants so they can grow",
+    "variations": [
+      "water",
+      "waters",
+      "watering"
+    ],
+    "emoji": "💧🌱"
+  },
+  "wave": {
+    "word": "wave",
+    "definition": "a moving line of water, or to move your hand to greet someone",
+    "variations": [
+      "wave",
+      "waves",
+      "waved",
+      "waving"
+    ],
+    "emoji": "🌊👋"
+  },
+  "wax": {
+    "word": "wax",
+    "definition": "a soft substance used in candles or for polishing",
+    "variations": [
+      "wax",
+      "waxes"
+    ],
+    "emoji": "🕯️"
+  },
+  "way": {
+    "word": "way",
+    "definition": "a path, direction, or method of doing something",
+    "variations": [
+      "way",
+      "ways"
+    ],
+    "emoji": "🛤️"
+  },
+  "web": {
+    "word": "web",
+    "definition": "a net made by a spider",
+    "variations": [
+      "web",
+      "webs"
+    ],
+    "emoji": "🕸️"
+  },
+  "welcome": {
+    "word": "welcome",
+    "definition": "a polite word you say after someone says “thank you”",
+    "variations": [
+      "welcome",
+      "you are welcome"
+    ],
+    "emoji": "🤗🙂"
+  },
+  "wet": {
+    "word": "wet",
+    "definition": "covered with water or another liquid",
+    "variations": [
+      "wet",
+      "wetter",
+      "wettest"
+    ],
+    "emoji": "💧"
+  },
+  "wig": {
+    "word": "wig",
+    "definition": "artificial hair worn on the head",
+    "variations": [
+      "wig",
+      "wigs"
+    ],
+    "emoji": "💇🧑"
+  },
+  "win": {
+    "word": "win",
+    "definition": "to come first or do better than others in a game or contest",
+    "variations": [
+      "win",
+      "wins",
+      "won",
+      "winning"
+    ],
+    "emoji": "🏆😊"
+  },
+  "word": {
+    "word": "word",
+    "definition": "a group of letters with a meaning",
+    "variations": [
+      "word",
+      "words"
+    ],
+    "emoji": "🔤📘"
+  },
+  "yam": {
+    "word": "yam",
+    "definition": "a root vegetable that people cook and eat",
+    "variations": [
+      "yam",
+      "yams"
+    ],
+    "emoji": "🍠"
+  },
+  "year": {
+    "word": "year",
+    "definition": "a period of twelve months; it is used to tell age",
+    "variations": [
+      "year",
+      "years"
+    ],
+    "emoji": "📅🕒"
+  },
+  "yes": {
+    "word": "yes",
+    "definition": "a word used to agree or say something is true",
+    "variations": [
+      "yes"
+    ],
+    "emoji": "👍✅"
+  },
+  "yet": {
+    "word": "yet",
+    "definition": "up to now or until now",
+    "variations": [
+      "yet"
+    ],
+    "emoji": "⏳"
+  },
+  "you": {
+    "word": "you",
+    "definition": "the person or people being spoken to",
+    "variations": [
+      "you"
+    ],
+    "emoji": "🫵"
+  },
+  "yuck": {
+    "word": "yuck",
+    "definition": "a word said when something seems unpleasant or dirty",
+    "variations": [
+      "yuck"
+    ],
+    "emoji": "🤢"
+  },
+  "zed": {
+    "word": "zed",
+    "definition": "the name of the letter Z in some kinds of English",
+    "variations": [
+      "zed"
+    ],
+    "emoji": "🔤"
+  },
+  "zero": {
+    "word": "zero",
+    "definition": "the number 0; nothing",
+    "variations": [
+      "zero",
+      "zeros"
+    ],
+    "emoji": "0️⃣"
+  },
+  "zip": {
+    "word": "zip",
+    "definition": "a fastener with two rows of teeth that open and close, or to move quickly",
+    "variations": [
+      "zip",
+      "zips",
+      "zipped",
+      "zipping"
+    ],
+    "emoji": "🤐⚡"
+  },
+  "zoo": {
+    "word": "zoo",
+    "definition": "a place where animals are kept for people to see",
+    "variations": [
+      "zoo",
+      "zoos"
+    ],
+    "emoji": "🦁🏞️"
+  },
+  "zoom": {
+    "word": "zoom",
+    "definition": "to move very quickly",
+    "variations": [
+      "zoom",
+      "zooms",
+      "zooming",
+      "zoomed"
+    ],
+    "emoji": "💨"
+  }
+}
