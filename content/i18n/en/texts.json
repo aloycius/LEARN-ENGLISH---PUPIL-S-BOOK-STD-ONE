@@ -5205,5 +5205,16 @@
   "pg088_n0011_easy_read": "Good night, Baraka.",
   "pg088_n0012_easy_read": "Sleep well!",
   "pg088_n0013_easy_read": "Good night, mother and father.",
-  "pg088_n0014_easy_read": "Sleep well too."
+  "pg088_n0014_easy_read": "Sleep well too.",
+  "pg030_n0015": "dad",
+  "pg030_n0021": "bad",
+  "pg033_n0070": "job",
+  "pg033_n0076": "jog",
+  "pg045_n0032": "yes",
+  "pg045_n0036": "you",
+  "activity_gen_cat_y": "Y sound",
+  "activity_gen_cat_c": "C sound",
+  "activity_gen_cat_d": "D sound",
+  "activity_gen_cat_b": "B sound",
+  "activity_gen_cat_others": "Other sounds"
 }
