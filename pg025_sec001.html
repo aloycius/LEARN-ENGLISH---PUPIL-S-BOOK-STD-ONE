@@ -119,6 +119,39 @@
             border-right: 38px solid transparent;
         }
 
+        .pg025-dialogue-stage {
+            position: relative;
+            min-height: 760px;
+        }
+
+        .pg025-dialogue-left,
+        .pg025-dialogue-right,
+        .pg025-children {
+            position: absolute;
+        }
+
+        .pg025-dialogue-left {
+            z-index: 2;
+            top: 0;
+            left: 22px;
+            width: 210px;
+        }
+
+        .pg025-dialogue-right {
+            z-index: 2;
+            top: 54px;
+            right: 2px;
+            width: 350px;
+        }
+
+        .pg025-children {
+            z-index: 1;
+            top: 165px;
+            left: 50%;
+            width: 560px;
+            transform: translateX(-50%);
+        }
+
         @media (max-width: 640px) {
             .pg025-letter-grid {
                 column-gap: .25rem;
@@ -136,6 +169,31 @@
                 height: 2rem;
                 border-bottom-width: 4px;
             }
+
+            .pg025-dialogue-stage {
+                display: flex;
+                min-height: 0;
+                flex-direction: column;
+                gap: 3.5rem;
+            }
+
+            .pg025-dialogue-left,
+            .pg025-dialogue-right,
+            .pg025-children {
+                position: relative;
+                top: auto;
+                right: auto;
+                left: auto;
+                width: auto;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                transform: none;
+            }
+
+            .pg025-dialogue-left { width: 210px; }
+            .pg025-dialogue-right { width: min(350px, 100%); }
+            .pg025-children { width: 100%; }
         }
     </style>
 </head>
@@ -191,18 +249,14 @@
             </div>
           </div>
 
-          <div class="relative min-h-[610px] max-lg:min-h-[540px] max-sm:min-h-0">
-            <div class="relative z-10 grid grid-cols-2 items-start gap-16 max-sm:grid-cols-1 max-sm:gap-10">
-              <div class="pg025-bubble pg025-bubble-left max-w-[255px] px-3 py-2 max-sm:mx-auto">
-                <span data-id="pg025_n0009" class="block text-[27px] italic leading-snug max-lg:text-[23px] max-sm:text-[19px]">Now, I know the English letters.</span>
-              </div>
-              <div class="pg025-bubble pg025-bubble-right ml-auto mt-12 max-w-[350px] px-3 py-2 max-sm:mx-auto max-sm:mt-0">
-                <span data-id="pg025_n0010" class="block text-[27px] italic leading-snug max-lg:text-[23px] max-sm:text-[19px]">Let us pronounce the letter sounds together. Or let us fingerspell letters together.</span>
-              </div>
+          <div class="pg025-dialogue-stage">
+            <div class="pg025-bubble pg025-bubble-left pg025-dialogue-left px-3 py-2">
+              <span data-id="pg025_n0009" class="block text-[27px] italic leading-snug max-lg:text-[23px] max-sm:text-[19px]">Now, I know the English letters.</span>
             </div>
-            <div class="absolute inset-x-0 top-28 flex justify-center max-sm:relative max-sm:top-auto max-sm:mt-8">
-              <img src="images/pg025_im001.jpg" alt="A picture of two schoolchildren with backpacks facing each other and speaking." data-id="pg025_im001" class="h-auto w-[560px] max-w-full object-contain max-lg:w-[490px] max-sm:w-full" style="max-width: 100%; height: auto;">
+            <div class="pg025-bubble pg025-bubble-right pg025-dialogue-right px-3 py-2">
+              <span data-id="pg025_n0010" class="block text-[25px] italic leading-snug max-lg:text-[22px] max-sm:text-[19px]">Let us pronounce the letter sounds together. Or let us fingerspell letters together.</span>
             </div>
+            <img src="images/pg025_im001.jpg" alt="A picture of two schoolchildren with backpacks facing each other and speaking." data-id="pg025_im001" class="pg025-children h-auto max-w-full object-contain" style="max-width: 100%; height: auto;">
           </div>
         </section>
       </div>
