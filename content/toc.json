@@ -16,7 +16,7 @@
   {
     "section_id": "pg007_sec001",
     "href": "pg007_sec001.html",
-    "title": "Unit One",
+    "title": "Unit One: Listening and speaking or observing and signing",
     "chapter_id": "pg007_n0002",
     "level": 1
   },
@@ -93,7 +93,7 @@
   {
     "section_id": "pg021_sec001",
     "href": "pg021_sec001.html",
-    "title": "I name parts of the body orally.",
+    "title": "I name parts of the body orally. Or I sign parts of the body.",
     "chapter_id": "pg021_n0003",
     "level": 2
   },
@@ -107,14 +107,14 @@
   {
     "section_id": "pg024_sec001",
     "href": "pg024_sec001.html",
-    "title": "Unit Two",
+    "title": "Unit Two: Letter sounds or letters",
     "chapter_id": "pg024_n0002",
     "level": 1
   },
   {
     "section_id": "pg026_sec001",
     "href": "pg026_sec001.html",
-    "title": "I pronounce English letter sounds.",
+    "title": "I pronounce English letter sounds. Or I fingerspell English letters.",
     "chapter_id": "pg026_n0002",
     "level": 2
   },
@@ -303,15 +303,22 @@
   {
     "section_id": "pg049_sec001",
     "href": "pg049_sec001.html",
-    "title": "I recognise English sounds in different spoken words.",
+    "title": "I recognise English sounds in different spoken words. Or I fingerspell English letters in different written words.",
     "chapter_id": "pg049_n0002",
     "level": 2
   },
   {
     "section_id": "pg049_sec002",
     "href": "pg049_sec002.html",
-    "title": "I identify words with the same initial sounds.",
+    "title": "I identify words with the same initial sounds. Or I sign words with the same initial letters.",
     "chapter_id": "pg049_n0103",
+    "level": 2
+  },
+  {
+    "section_id": "pg052_sec001",
+    "href": "pg052_sec001.html",
+    "title": "I identify words with the same final sounds. Or I identify words with the same final letters.",
+    "chapter_id": "pg052_n0014",
     "level": 2
   },
   {
