@@ -506,10 +506,6 @@
     "page_number": 64
   },
   {
-    "section_id": "qz011",
-    "href": "qz011.html"
-  },
-  {
     "section_id": "pg071_sec001",
     "href": "pg071_sec001.html",
     "page_number": 65
@@ -540,10 +536,6 @@
     "page_number": 69
   },
   {
-    "section_id": "qz012",
-    "href": "qz012.html"
-  },
-  {
     "section_id": "pg076_sec001",
     "href": "pg076_sec001.html",
     "page_number": 70
@@ -569,10 +561,6 @@
     "page_number": 72
   },
   {
-    "section_id": "qz013",
-    "href": "qz013.html"
-  },
-  {
     "section_id": "pg079_sec001",
     "href": "pg079_sec001.html",
     "page_number": 73
@@ -586,10 +574,6 @@
     "section_id": "pg081_sec001",
     "href": "pg081_sec001.html",
     "page_number": 75
-  },
-  {
-    "section_id": "qz014",
-    "href": "qz014.html"
   },
   {
     "section_id": "pg082_sec001",
@@ -612,10 +596,6 @@
     "page_number": 79
   },
   {
-    "section_id": "qz015",
-    "href": "qz015.html"
-  },
-  {
     "section_id": "pg086_sec001",
     "href": "pg086_sec001.html",
     "page_number": 80
@@ -634,9 +614,5 @@
     "section_id": "pg088_sec002",
     "href": "pg088_sec002.html",
     "page_number": 82
-  },
-  {
-    "section_id": "qz016",
-    "href": "qz016.html"
   }
 ]
