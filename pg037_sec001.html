@@ -10,126 +10,304 @@
     <link href="./content/tailwind_output.css" rel="stylesheet">
     <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
     <link href="./assets/fonts.css" rel="stylesheet">
+    <style>
+      .pg037-sheet {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 28px 88px 42px;
+        background: #fff;
+        color: #202020;
+        font-style: italic;
+      }
+      .pg037-instruction {
+        margin: 0 0 22px;
+        font-size: 29px;
+        line-height: 1.35;
+      }
+      .pg037-number {
+        display: inline-block;
+        width: 56px;
+        font-style: normal;
+      }
+      .pg037-picture-table {
+        display: grid;
+        grid-template-columns: 258px minmax(0, 1fr);
+        margin-bottom: 21px;
+        border: 1.5px solid #168fd0;
+      }
+      .pg037-table-heading {
+        height: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #c5e1ee;
+        border-bottom: 1.5px solid #168fd0;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 1;
+      }
+      .pg037-sound-column {
+        border-right: 1.5px solid #168fd0;
+      }
+      .pg037-sound-cell {
+        height: 447px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+      }
+      .pg037-picture-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-rows: repeat(2, 223.5px);
+        padding: 0 8px;
+      }
+      .pg037-picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-width: 0;
+        padding-top: 10px;
+      }
+      .pg037-picture img,
+      .pg037-visual {
+        order: 1;
+        width: 100%;
+        height: 160px;
+        object-fit: contain;
+      }
+      .pg037-picture-label {
+        order: 2;
+        margin-top: 4px;
+        font-size: 28px;
+        line-height: 1;
+      }
+      .pg037-nine {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #00a64f;
+        font-family: Arial, sans-serif;
+        font-size: 158px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1;
+      }
+      .pg037-nail {
+        position: relative;
+      }
+      .pg037-nail::before,
+      .pg037-nail::after {
+        content: "";
+        position: absolute;
+        border-color: #999;
+        opacity: .8;
+      }
+      .pg037-nail::before {
+        left: 28px;
+        top: 30px;
+        width: 90px;
+        height: 83px;
+        border-left: 2px solid #999;
+        border-top: 2px solid #999;
+        border-radius: 55% 35% 45% 20%;
+        transform: rotate(8deg);
+      }
+      .pg037-nail::after {
+        left: 34px;
+        top: 88px;
+        width: 108px;
+        height: 45px;
+        border-left: 2px solid #888;
+        border-bottom: 2px solid #888;
+        border-radius: 50%;
+        transform: rotate(-24deg);
+      }
+      .pg037-word-builders {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 58px;
+        margin: 42px 28px 32px 58px;
+      }
+      .pg037-word-builder {
+        display: grid;
+        grid-template-columns: 120px 22px 80px;
+        align-items: center;
+      }
+      .pg037-letter-stack {
+        display: grid;
+        grid-template-columns: 60px 60px;
+        grid-template-rows: 45px 45px;
+      }
+      .pg037-letter-box,
+      .pg037-answer-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #222;
+        border-radius: 6px;
+        font-size: 27px;
+        line-height: 1;
+      }
+      .pg037-letter-box:nth-child(1) { background: #eef2f3; }
+      .pg037-letter-box:nth-child(2) { background: #ffe3dc; border-color: #ff6655; }
+      .pg037-letter-box:nth-child(3) {
+        grid-column: 1 / 3;
+        width: 60px;
+        justify-self: center;
+        background: #b9d5c2;
+        border-color: #087a55;
+      }
+      .pg037-builder-dash {
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+      }
+      .pg037-answer-box {
+        height: 45px;
+        background: #accbb5;
+        border-color: #087a55;
+      }
+      .pg037-pronunciation-table {
+        margin: 17px 0 48px 56px;
+        border: 1.5px solid #ff4f9a;
+        background: #fce7ef;
+      }
+      .pg037-pronunciation-row {
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        min-height: 46px;
+        border-top: 1px solid #ff4f9a;
+      }
+      .pg037-pronunciation-row:first-child { border-top: 0; }
+      .pg037-pronunciation-cell {
+        display: flex;
+        align-items: center;
+        padding: 4px 11px;
+        border-left: 1px solid #ff4f9a;
+        font-size: 29px;
+        line-height: 1.1;
+      }
+      .pg037-pronunciation-cell:first-child { border-left: 0; }
+      .pg037-pronunciation-head {
+        min-height: 45px;
+        background: #e48bb7;
+        color: #fff;
+        font-weight: 700;
+      }
+      .pg037-activity-heading {
+        margin: 0 0 18px;
+        color: #df2d32;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+      }
+      .pg037-red { color: #df2835; }
+      @media (max-width: 900px) {
+        .pg037-sheet { padding: 24px 28px 38px; }
+        .pg037-picture-table { grid-template-columns: 30% 70%; }
+        .pg037-word-builders { gap: 18px; margin-left: 12px; margin-right: 12px; }
+      }
+      @media (max-width: 640px) {
+        .pg037-sheet { padding: 20px 14px 32px; }
+        .pg037-instruction { font-size: 20px; }
+        .pg037-number { width: 38px; }
+        .pg037-picture-table { grid-template-columns: 1fr; }
+        .pg037-sound-column { border-right: 0; border-bottom: 1.5px solid #168fd0; }
+        .pg037-sound-cell { height: 90px; }
+        .pg037-picture-grid { grid-template-rows: repeat(2, 170px); }
+        .pg037-picture img, .pg037-visual { height: 112px; }
+        .pg037-word-builders { grid-template-columns: 1fr; margin: 24px auto; max-width: 240px; }
+        .pg037-pronunciation-table { margin-left: 0; }
+        .pg037-pronunciation-row { grid-template-columns: 42% 58%; }
+        .pg037-pronunciation-cell { font-size: 20px; }
+      }
+    </style>
 </head>
 
 <body class="min-h-screen flex items-center justify-center">
     <main class="w-full">
       <h1 class="sr-only" id="page-heading">Letter sound</h1>
-      <div id="content" class="container mx-auto px-6 max-sm:px-3 py-8 bg-white opacity-0">
-  <section data-section-type="text_and_images" data-section-id="pg037_sec001" class="max-w-5xl mx-auto font-sans text-neutral-800">
-    <div class="mb-6">
-      <p data-id="pg037_n0001" class="text-[28px] max-lg:text-[24px] max-sm:text-[18px] leading-tight">2. Name the following pictures.</p>
-    </div>
+      <div id="content" class="opacity-0">
+        <section data-section-type="text_and_images" data-section-id="pg037_sec001" class="pg037-sheet">
+          <p data-id="pg037_n0001" class="pg037-instruction">2. Name the following pictures.</p>
 
-    <div class="border-2 border-sky-400 rounded-sm overflow-hidden mb-8 bg-white">
-      <div class="grid grid-cols-[1fr_2.3fr] max-sm:grid-cols-1">
-        <div class="border-r-2 border-sky-400 max-sm:border-r-0 max-sm:border-b-2">
-          <div class="bg-sky-200 px-6 max-sm:px-4 py-3 border-b-2 border-sky-400">
-            <p data-id="pg037_n0005" class="text-[24px] max-lg:text-[22px] max-sm:text-[18px] font-bold italic leading-none">Letter sound</p>
-          </div>
-          <div class="min-h-[470px] max-lg:min-h-[360px] max-sm:min-h-[140px] flex items-center justify-center px-6 py-10 max-sm:py-8 bg-white">
-            <p data-id="pg037_n0010" class="text-[46px] max-lg:text-[40px] max-sm:text-[34px] leading-none">n</p>
-          </div>
-        </div>
-
-        <div class="bg-white">
-          <div class="bg-sky-200 px-6 max-sm:px-4 py-3 border-b-2 border-sky-400">
-            <p data-id="pg037_n0007" class="text-[24px] max-lg:text-[22px] max-sm:text-[18px] font-bold italic text-center leading-none">Pictures</p>
-          </div>
-
-          <div class="px-4 max-sm:px-2 py-6 max-sm:py-4">
-            <div class="grid grid-cols-3 gap-x-6 gap-y-8 max-sm:grid-cols-2 max-sm:gap-x-3 max-sm:gap-y-5">
-              <div class="flex flex-col items-center">
-                <p data-id="pg037_n0014" class="order-2 mt-2 text-[24px] max-lg:text-[22px] max-sm:text-[18px] leading-none">(a)</p>
-                <img data-id="pg037_im001" src="images/pg037_im001.png" alt="A picture of a nose." class="order-1 max-w-full w-[210px] max-lg:w-[180px] max-sm:w-[135px] h-[150px] max-lg:h-[130px] max-sm:h-[88px] object-contain" style="max-width: 100%; height: auto;">
-              </div>
-              <div class="flex flex-col items-center">
-                <p data-id="pg037_n0016" class="order-2 mt-2 text-[24px] max-lg:text-[22px] max-sm:text-[18px] leading-none">(b)</p>
-                <img data-id="pg037_im002" src="images/pg037_im002.jpg" alt="A picture of nest with eggs." class="order-1 max-w-full w-[170px] max-lg:w-[145px] max-sm:w-[110px] h-[150px] max-lg:h-[130px] max-sm:h-[88px] object-contain" style="max-width: 100%; height: auto;">
-              </div>
-              <div class="flex flex-col items-center">
-                <p data-id="pg037_n0018" class="order-2 mt-2 text-[24px] max-lg:text-[22px] max-sm:text-[18px] leading-none">(c)</p>
-                <img data-id="pg037_im003" src="images/pg037_im003.jpg" alt="A picture of a mosquito net." class="order-1 max-w-full w-[170px] max-lg:w-[145px] max-sm:w-[110px] h-[150px] max-lg:h-[130px] max-sm:h-[88px] object-contain" style="max-width: 100%; height: auto;">
-              </div>
-
-              <div class="flex flex-col items-center justify-start">
-                <p data-id="pg037_n0020" class="order-2 mt-2 text-[24px] max-lg:text-[22px] max-sm:text-[18px] leading-none">(d)</p>
-                <span data-id="pg037_im004" class="sr-only">A picture of a nail.</span>
-                <div aria-hidden="true" class="order-1 relative w-full max-w-[170px] max-lg:max-w-[145px] max-sm:max-w-[110px] h-[150px] max-lg:h-[130px] max-sm:h-[88px]">
-                  <div class="absolute left-[20%] top-[12%] w-[34%] h-[28%] border-l-2 border-t-2 border-slate-400 rounded-tl-[40px] rounded-br-[28px] rotate-[10deg] opacity-70"></div>
-                  <div class="absolute left-[38%] top-[34%] w-[22%] h-[16%] border-r-2 border-b-2 border-slate-400 rounded-bl-[30px] rounded-tr-[18px] rotate-[12deg] opacity-70"></div>
-                  <div class="absolute left-[18%] top-[56%] w-[30%] h-0 border-t-2 border-slate-500 rotate-[-40deg] opacity-80"></div>
-                  <div class="absolute left-[42%] top-[50%] w-[24%] h-[18%] border-l-2 border-b-2 border-slate-400 rounded-bl-[30px] rounded-tr-[18px] rotate-[18deg] opacity-70"></div>
+          <div class="pg037-picture-table">
+            <div class="pg037-sound-column">
+              <p data-id="pg037_n0005" class="pg037-table-heading">Letter sound</p>
+              <p data-id="pg037_n0010" class="pg037-sound-cell">n</p>
+            </div>
+            <div>
+              <p data-id="pg037_n0007" class="pg037-table-heading">Pictures</p>
+              <div class="pg037-picture-grid">
+                <div class="pg037-picture">
+                  <p data-id="pg037_n0014" class="pg037-picture-label">(a)</p>
+                  <img data-id="pg037_im001" src="images/pg037_im001.png" alt="A picture of a nose.">
                 </div>
-              </div>
-
-              <div class="flex flex-col items-center justify-start">
-                <p data-id="pg037_n0021" class="order-2 mt-2 text-[24px] max-lg:text-[22px] max-sm:text-[18px] leading-none">(e)</p>
-                <span data-id="pg037_im006" class="sr-only">A picture of the number nine.</span>
-                <div aria-hidden="true" class="order-1 w-full max-w-[170px] max-lg:max-w-[145px] max-sm:max-w-[110px] h-[150px] max-lg:h-[130px] max-sm:h-[88px] flex items-center justify-center">
-                  <span class="text-[128px] max-lg:text-[108px] max-sm:text-[76px] font-bold leading-none text-emerald-500">9</span>
+                <div class="pg037-picture">
+                  <p data-id="pg037_n0016" class="pg037-picture-label">(b)</p>
+                  <img data-id="pg037_im002" src="images/pg037_im002.jpg" alt="A picture of nest with eggs.">
                 </div>
-              </div>
-
-              <div class="flex flex-col items-center max-sm:col-span-2">
-                <p data-id="pg037_n0023" class="order-2 mt-2 text-[24px] max-lg:text-[22px] max-sm:text-[18px] leading-none">(f)</p>
-                <img data-id="pg037_im005" src="images/pg037_im005.jpg" alt="A picture of a nut." class="order-1 max-w-full w-[160px] max-lg:w-[145px] max-sm:w-[115px] h-[150px] max-lg:h-[130px] max-sm:h-[88px] object-contain" style="max-width: 100%; height: auto;">
+                <div class="pg037-picture">
+                  <p data-id="pg037_n0018" class="pg037-picture-label">(c)</p>
+                  <img data-id="pg037_im003" src="images/pg037_im003.jpg" alt="A picture of a mosquito net.">
+                </div>
+                <div class="pg037-picture">
+                  <p data-id="pg037_n0020" class="pg037-picture-label">(d)</p>
+                  <span data-id="pg037_im004" class="sr-only">A picture of a nail.</span>
+                  <div aria-hidden="true" class="pg037-visual pg037-nail"></div>
+                </div>
+                <div class="pg037-picture">
+                  <p data-id="pg037_n0021" class="pg037-picture-label">(e)</p>
+                  <span data-id="pg037_im006" class="sr-only">A picture of the number nine.</span>
+                  <div aria-hidden="true" class="pg037-visual pg037-nine">9</div>
+                </div>
+                <div class="pg037-picture">
+                  <p data-id="pg037_n0023" class="pg037-picture-label">(f)</p>
+                  <img data-id="pg037_im005" src="images/pg037_im005.jpg" alt="A picture of a nut.">
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="mb-5">
-      <p data-id="pg037_n0024" class="text-[28px] max-lg:text-[24px] max-sm:text-[18px] leading-tight">3. Combine the following letter sounds to form words. Or fingerspell the following letters to form words.</p>
-    </div>
+          <p data-id="pg037_n0024" class="pg037-instruction">3. Combine the following letter sounds to form words. Or fingerspell the following letters to form words.</p>
 
-    <div class="flex flex-row gap-8 max-lg:flex-col max-lg:gap-5 mb-8 pl-10 max-lg:pl-4 max-sm:pl-0">
-      <div class="rounded-2xl bg-emerald-50 border border-emerald-200 px-5 py-4 shadow-sm">
-        <p data-id="pg037_n0026" class="text-[30px] max-lg:text-[26px] max-sm:text-[22px] leading-none">n i l &#x2014; nil</p>
-      </div>
-      <div class="rounded-2xl bg-amber-50 border border-amber-200 px-5 py-4 shadow-sm">
-        <p data-id="pg037_n0027" class="text-[30px] max-lg:text-[26px] max-sm:text-[22px] leading-none">n u t &#x2014; nut</p>
-      </div>
-      <div class="rounded-2xl bg-sky-50 border border-sky-200 px-5 py-4 shadow-sm">
-        <p data-id="pg037_n0028" class="text-[30px] max-lg:text-[26px] max-sm:text-[22px] leading-none">n o d &#x2014; nod</p>
-      </div>
-    </div>
+          <div class="pg037-word-builders">
+            <div class="pg037-word-builder">
+              <span data-id="pg037_n0026" class="sr-only">n i l — nil</span>
+              <div class="pg037-letter-stack" aria-hidden="true"><span class="pg037-letter-box">n</span><span class="pg037-letter-box">i</span><span class="pg037-letter-box">l</span></div>
+              <span class="pg037-builder-dash" aria-hidden="true">−</span><span class="pg037-answer-box" aria-hidden="true">nil</span>
+            </div>
+            <div class="pg037-word-builder">
+              <span data-id="pg037_n0027" class="sr-only">n u t — nut</span>
+              <div class="pg037-letter-stack" aria-hidden="true"><span class="pg037-letter-box">n</span><span class="pg037-letter-box">u</span><span class="pg037-letter-box">t</span></div>
+              <span class="pg037-builder-dash" aria-hidden="true">−</span><span class="pg037-answer-box" aria-hidden="true"></span>
+            </div>
+            <div class="pg037-word-builder">
+              <span data-id="pg037_n0028" class="sr-only">n o d — nod</span>
+              <div class="pg037-letter-stack" aria-hidden="true"><span class="pg037-letter-box">n</span><span class="pg037-letter-box">o</span><span class="pg037-letter-box">d</span></div>
+              <span class="pg037-builder-dash" aria-hidden="true">−</span><span class="pg037-answer-box" aria-hidden="true"></span>
+            </div>
+          </div>
 
-    <div class="mb-4">
-      <p data-id="pg037_n0029" class="text-[28px] max-lg:text-[24px] max-sm:text-[18px] leading-tight">4. Pronounce the words containing the letter sound n. Or sign the words containing the letter n.</p>
-    </div>
+          <p data-id="pg037_n0029" class="pg037-instruction">4. Pronounce the words containing the letter sound n. Or sign the words containing the letter n.</p>
 
-    <div class="border-2 border-pink-400 overflow-hidden max-w-4xl bg-pink-50/40">
-      <div class="grid grid-cols-2">
-        <div class="bg-pink-300 px-4 py-3 border-r-2 border-pink-400">
-          <p data-id="pg037_n0033" class="text-white text-[24px] max-lg:text-[22px] max-sm:text-[17px] italic leading-none">Words</p>
-        </div>
-        <div class="bg-pink-300 px-4 py-3">
-          <p data-id="pg037_n0035" class="text-white text-[24px] max-lg:text-[22px] max-sm:text-[17px] italic leading-none">How to pronounce</p>
-        </div>
-      </div>
+          <div class="pg037-pronunciation-table">
+            <div class="pg037-pronunciation-row pg037-pronunciation-head">
+              <p data-id="pg037_n0033" class="pg037-pronunciation-cell">Words</p>
+              <p data-id="pg037_n0035" class="pg037-pronunciation-cell">How to pronounce</p>
+            </div>
+            <div class="pg037-pronunciation-row"><p data-id="pg037_n0038" class="pg037-pronunciation-cell">name</p><p data-id="pg037_n0040" class="pg037-pronunciation-cell">/ne&#x26a;m/</p></div>
+            <div class="pg037-pronunciation-row"><p data-id="pg037_n0043" class="pg037-pronunciation-cell">nine</p><p data-id="pg037_n0045" class="pg037-pronunciation-cell">/na&#x26a;n/</p></div>
+            <div class="pg037-pronunciation-row"><p data-id="pg037_n0048" class="pg037-pronunciation-cell">nod</p><p data-id="pg037_n0050" class="pg037-pronunciation-cell">/n&#x252;d/</p></div>
+            <div class="pg037-pronunciation-row"><p data-id="pg037_n0053" class="pg037-pronunciation-cell">nice</p><p data-id="pg037_n0055" class="pg037-pronunciation-cell">/na&#x26a;s/</p></div>
+          </div>
 
-      <div class="grid grid-cols-2 border-t border-pink-400">
-        <div class="px-4 py-3 border-r border-pink-400"><p data-id="pg037_n0038" class="text-[24px] max-sm:text-[18px] leading-none">name</p></div>
-        <div class="px-4 py-3"><p data-id="pg037_n0040" class="text-[24px] max-sm:text-[18px] leading-none">/ne&#x26a;m/</p></div>
+          <h2 data-id="pg037_n0058" class="pg037-activity-heading">Activity 2</h2>
+          <p data-id="pg037_n0060" class="pg037-instruction">1. Pronounce letter sound p. Or fingerspell the letter p.</p>
+        </section>
       </div>
-      <div class="grid grid-cols-2 border-t border-pink-400">
-        <div class="px-4 py-3 border-r border-pink-400"><p data-id="pg037_n0043" class="text-[24px] max-sm:text-[18px] leading-none">nine</p></div>
-        <div class="px-4 py-3"><p data-id="pg037_n0045" class="text-[24px] max-sm:text-[18px] leading-none">/na&#x26a;n/</p></div>
-      </div>
-      <div class="grid grid-cols-2 border-t border-pink-400">
-        <div class="px-4 py-3 border-r border-pink-400"><p data-id="pg037_n0048" class="text-[24px] max-sm:text-[18px] leading-none">nod</p></div>
-        <div class="px-4 py-3"><p data-id="pg037_n0050" class="text-[24px] max-sm:text-[18px] leading-none">/n&#x252;d/</p></div>
-      </div>
-      <div class="grid grid-cols-2 border-t border-pink-400">
-        <div class="px-4 py-3 border-r border-pink-400"><p data-id="pg037_n0053" class="text-[24px] max-sm:text-[18px] leading-none">nice</p></div>
-        <div class="px-4 py-3"><p data-id="pg037_n0055" class="text-[24px] max-sm:text-[18px] leading-none">/na&#x26a;s/</p></div>
-      </div>
-    </div>
-  </section>
-</div>
     </main>
 
     <div class="relative z-50" id="interface-container"></div>
