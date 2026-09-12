@@ -5,8 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Back cover - Learn English Pupil’s Book Standard One</title>
+    <meta name="title-id" content="cover_back" />
     <meta name="cover-kind" content="back" />
-    <link href="./assets/book-covers.css?v=2" rel="stylesheet">
+    <meta name="cover-video-key" content="cover-back" />
+    <link href="./content/tailwind_output.css" rel="stylesheet">
+    <link href="./assets/reader-ui.css?v=5" rel="stylesheet">
+    <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="./assets/fonts.css" rel="stylesheet">
+    <link href="./assets/mobile-sheet-drag.css" rel="stylesheet">
+    <link href="./assets/sign-language-video.css" rel="stylesheet">
+    <link href="./assets/book-covers.css?v=3" rel="stylesheet">
 </head>
 
 <body class="book-cover-page">
@@ -16,13 +24,15 @@
       <span class="sr-only">Back cover of Learn English Pupil’s Book Standard One. Select to return to the final book page.</span>
     </a>
   </main>
-  <nav class="cover-page-nav" aria-label="Cover navigation">
-    <div class="cover-page-nav__controls">
-      <a class="cover-page-nav__button" href="pg088_sec002.html" aria-label="Previous: page 122">&#x2039;</a>
-      <span class="cover-page-nav__label">Back cover</span>
-      <span class="cover-page-nav__button cover-page-nav__button--disabled" aria-label="No next page" aria-disabled="true">&#x203A;</span>
-    </div>
-  </nav>
+  <div class="relative z-50" id="interface-container"></div>
+  <div class="relative z-50" id="nav-container"></div>
+  <script src="./assets/offline-preloader.js?v=5"></script>
+  <script src="./assets/scorm.js"></script>
+  <script src="./assets/media-playback-independence.js"></script>
+  <script src="./assets/base.bundle.local.js?v=5"></script>
+  <script src="./assets/sign-language-video.js"></script>
+  <script src="./assets/mobile-sheet-drag.js"></script>
+  <script src="./assets/cover-reader-adapter.js?v=5"></script>
 </body>
 
 </html>

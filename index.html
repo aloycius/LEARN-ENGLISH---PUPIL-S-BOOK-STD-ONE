@@ -5,8 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Learn English Pupil’s Book Standard One (Kiswahili Medium Schools)</title>
+    <meta name="title-id" content="cover_front" />
     <meta name="cover-kind" content="front" />
-    <link href="./assets/book-covers.css?v=2" rel="stylesheet">
+    <meta name="cover-video-key" content="cover-front" />
+    <link href="./content/tailwind_output.css" rel="stylesheet">
+    <link href="./assets/reader-ui.css?v=5" rel="stylesheet">
+    <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="./assets/fonts.css" rel="stylesheet">
+    <link href="./assets/mobile-sheet-drag.css" rel="stylesheet">
+    <link href="./assets/sign-language-video.css" rel="stylesheet">
+    <link href="./assets/book-covers.css?v=3" rel="stylesheet">
 </head>
 
 <body class="book-cover-page">
@@ -16,13 +24,15 @@
       <span class="sr-only">Learn English. Pupil's Book. Standard One, Kiswahili Medium Schools. Tanzania Institute of Education. Select to open the book.</span>
     </a>
   </main>
-  <nav class="cover-page-nav" aria-label="Cover navigation">
-    <div class="cover-page-nav__controls">
-      <span class="cover-page-nav__button cover-page-nav__button--disabled" aria-label="No previous page" aria-disabled="true">&#x2039;</span>
-      <span class="cover-page-nav__label">Front cover</span>
-      <a class="cover-page-nav__button" href="pg001_sec001.html" aria-label="Next: page 1">&#x203A;</a>
-    </div>
-  </nav>
+  <div class="relative z-50" id="interface-container"></div>
+  <div class="relative z-50" id="nav-container"></div>
+  <script src="./assets/offline-preloader.js?v=5"></script>
+  <script src="./assets/scorm.js"></script>
+  <script src="./assets/media-playback-independence.js"></script>
+  <script src="./assets/base.bundle.local.js?v=5"></script>
+  <script src="./assets/sign-language-video.js"></script>
+  <script src="./assets/mobile-sheet-drag.js"></script>
+  <script src="./assets/cover-reader-adapter.js?v=5"></script>
 </body>
 
 </html>

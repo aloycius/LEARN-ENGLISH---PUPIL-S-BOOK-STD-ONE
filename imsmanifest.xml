@@ -152,6 +152,7 @@
     
       <file href="assets/base.bundle.local.js" />
       <file href="assets/book-covers.css" />
+      <file href="assets/cover-reader-adapter.js" />
       <file href="assets/mobile-sheet-drag.css" />
       <file href="assets/mobile-sheet-drag.js" />
       <file href="assets/reader-ui.css" />
