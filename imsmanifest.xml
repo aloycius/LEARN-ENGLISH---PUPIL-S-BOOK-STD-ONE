@@ -151,6 +151,9 @@
       <file href="pg088_sec002.html"/>
     
       <file href="assets/base.bundle.local.js" />
+      <file href="assets/mobile-sheet-drag.css" />
+      <file href="assets/mobile-sheet-drag.js" />
+      <file href="assets/reader-ui.css" />
       <file href="assets/config.json" />
       <file href="assets/interface_translations/en/interface_translations.json" />
       <file href="assets/media-playback-independence.js" />

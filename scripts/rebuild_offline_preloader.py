@@ -14,7 +14,7 @@ END = ";\n  var BASE_DIR"
 
 
 def main() -> None:
-    source = PRELOADER.read_text()
+    source = PRELOADER.read_text(encoding="utf-8")
     start = source.index(START) + len(START)
     end = source.index(END, start)
     inline = json.loads(source[start:end])
@@ -24,11 +24,11 @@ def main() -> None:
         if not path.exists():
             rebuilt[key] = old_value
         elif path.suffix == ".json":
-            rebuilt[key] = json.loads(path.read_text())
+            rebuilt[key] = json.loads(path.read_text(encoding="utf-8"))
         else:
-            rebuilt[key] = path.read_text()
+            rebuilt[key] = path.read_text(encoding="utf-8")
     payload = json.dumps(rebuilt, ensure_ascii=False, separators=(",", ":"))
-    PRELOADER.write_text(source[:start] + payload + source[end:])
+    PRELOADER.write_text(source[:start] + payload + source[end:], encoding="utf-8")
 
 
 if __name__ == "__main__":
