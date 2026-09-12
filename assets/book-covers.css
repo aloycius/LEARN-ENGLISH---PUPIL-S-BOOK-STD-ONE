@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body.book-cover-page {
+  background: #dbe7f4;
+}
+
+.book-cover-stage {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  min-height: 100dvh;
+  place-items: center;
+  padding: clamp(0.5rem, 2vw, 1.5rem);
+}
+
+.book-cover-link {
+  display: block;
+  line-height: 0;
+  max-width: 510px;
+  width: 100%;
+  box-shadow: 0 12px 34px rgba(15, 43, 82, 0.28);
+}
+
+.book-cover-link:focus-visible {
+  outline: 5px solid #facc15;
+  outline-offset: 5px;
+}
+
+.book-cover-art {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.book-back-cover-link {
+  background: #1d4ed8;
+  border-radius: 9999px;
+  color: #fff;
+  display: block;
+  font: 700 1rem/1.25 system-ui, sans-serif;
+  margin: 1rem auto 7rem;
+  padding: 0.8rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  width: max-content;
+}
+
+.book-back-cover-link:focus-visible,
+.book-back-cover-link:hover {
+  background: #1e3a8a;
+  outline: 3px solid #facc15;
+  outline-offset: 3px;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

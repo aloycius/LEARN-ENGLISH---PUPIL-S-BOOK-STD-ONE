@@ -26,6 +26,8 @@
               adlcp:scormtype="sco"
               href="index.html">
       <file href="index.html"/>
+      <file href="pg001_sec001.html"/>
+      <file href="back-cover.html"/>
       <file href="pg003_sec001.html"/>
       <file href="pg004_sec001.html"/>
       <file href="pg005_sec001.html"/>
@@ -65,12 +67,10 @@
       <file href="pg033_sec003.html"/>
       <file href="pg034_sec001.html"/>
       <file href="pg034_sec002.html"/>
-      <file href="pg034_sec003.html"/>
       <file href="pg035_sec001.html"/>
       <file href="pg035_sec002.html"/>
       <file href="pg036_sec001.html"/>
       <file href="pg037_sec001.html"/>
-      <file href="pg037_sec002.html"/>
       <file href="pg038_sec001.html"/>
       <file href="pg038_sec002.html"/>
       <file href="pg039_sec001.html"/>
@@ -151,6 +151,7 @@
       <file href="pg088_sec002.html"/>
     
       <file href="assets/base.bundle.local.js" />
+      <file href="assets/book-covers.css" />
       <file href="assets/mobile-sheet-drag.css" />
       <file href="assets/mobile-sheet-drag.js" />
       <file href="assets/reader-ui.css" />
@@ -160,6 +161,8 @@
       <file href="assets/offline-preloader.js" />
       <file href="assets/sign-language-video.css" />
       <file href="assets/sign-language-video.js" />
+      <file href="images/front-cover.jpg" />
+      <file href="images/back-cover.jpg" />
       <file href="content/i18n/en/audios.json" />
       <file href="content/i18n/en/glossary.json" />
       <file href="content/i18n/en/images.json" />

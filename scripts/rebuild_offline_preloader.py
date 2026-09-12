@@ -27,6 +27,16 @@ def main() -> None:
             rebuilt[key] = json.loads(path.read_text(encoding="utf-8"))
         else:
             rebuilt[key] = path.read_text(encoding="utf-8")
+
+    # Cover endcaps live outside pages.json so they never shift numbered pages
+    # or their sign-language video indexes. Include them, plus every manifest
+    # page, in the inline cache explicitly.
+    pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+    html_files = ["index.html", "back-cover.html", *(page["href"] for page in pages)]
+    for relative_path in html_files:
+        path = ROOT / relative_path
+        rebuilt[f"./{relative_path}"] = path.read_text(encoding="utf-8")
+
     payload = json.dumps(rebuilt, ensure_ascii=False, separators=(",", ":"))
     PRELOADER.write_text(source[:start] + payload + source[end:], encoding="utf-8")
 
