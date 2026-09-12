@@ -43197,7 +43197,7 @@ function useAtomValueWithDelay<Value>(
         if (chapter.section_id) chapterLookup.set(chapter.section_id, chapter);
       }
       const seen = /* @__PURE__ */ new Set();
-      return pages.map((page, index2) => {
+      const numberedItems = pages.map((page, index2) => {
         const sequential = index2 + 1;
         const displayLabel = String(sequential);
         const pdfPageLabel = page.page_number !== void 0 && page.page_number !== null ? String(page.page_number) : null;
@@ -43207,13 +43207,30 @@ function useAtomValueWithDelay<Value>(
           chapterHeading = chapter;
           seen.add(chapter.section_id);
         }
-        return { page, displayLabel, pdfPageLabel, chapterHeading };
+        return { page, displayLabel, pdfPageLabel, chapterHeading, isCover: false };
       });
+      return [
+        {
+          page: { section_id: "cover_front", href: "index.html" },
+          displayLabel: "Front cover",
+          pdfPageLabel: null,
+          chapterHeading: null,
+          isCover: true
+        },
+        ...numberedItems,
+        {
+          page: { section_id: "cover_back", href: "back-cover.html" },
+          displayLabel: "Back cover",
+          pdfPageLabel: null,
+          chapterHeading: null,
+          isCover: true
+        }
+      ];
     }, [pages, toc]);
     if (pages.length === 0) return null;
-    return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("ol", { className: "py-1", children: items.map(({ page, displayLabel, pdfPageLabel, chapterHeading }) => {
+    return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("ol", { className: "py-1", children: items.map(({ page, displayLabel, pdfPageLabel, chapterHeading, isCover }) => {
       const active = page.section_id === currentSectionId;
-      const ariaLabel = pdfPageLabel ? `Page ${displayLabel}, ${printPageLabel} ${pdfPageLabel}` : `Page ${displayLabel}`;
+      const ariaLabel = isCover ? displayLabel : pdfPageLabel ? `Page ${displayLabel}, ${printPageLabel} ${pdfPageLabel}` : `Page ${displayLabel}`;
       return /* @__PURE__ */ (0, import_jsx_runtime48.jsxs)(import_react19.Fragment, { children: [
         chapterHeading ? /* @__PURE__ */ (0, import_jsx_runtime48.jsx)(
           "li",
