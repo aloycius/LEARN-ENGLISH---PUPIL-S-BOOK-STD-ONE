@@ -43148,8 +43148,7 @@ function useAtomValueWithDelay<Value>(
                 pages,
                 toc,
                 currentSectionId,
-                printPageLabel: t("print-page-label") || "Print Page",
-                coverLabel: t("cover-label") || "Cover"
+                printPageLabel: t("print-page-label") || "Print Page"
               }
             ) }) })
           ]
@@ -43190,8 +43189,7 @@ function useAtomValueWithDelay<Value>(
     pages,
     toc,
     currentSectionId,
-    printPageLabel,
-    coverLabel
+    printPageLabel
   }) {
     const items = (0, import_react19.useMemo)(() => {
       const chapterLookup = /* @__PURE__ */ new Map();
@@ -43201,7 +43199,7 @@ function useAtomValueWithDelay<Value>(
       const seen = /* @__PURE__ */ new Set();
       return pages.map((page, index2) => {
         const sequential = index2 + 1;
-        const displayLabel = sequential === 1 ? `${sequential} (${coverLabel})` : String(sequential);
+        const displayLabel = String(sequential);
         const pdfPageLabel = page.page_number !== void 0 && page.page_number !== null ? String(page.page_number) : null;
         let chapterHeading = null;
         const chapter = chapterLookup.get(page.section_id);
@@ -43211,7 +43209,7 @@ function useAtomValueWithDelay<Value>(
         }
         return { page, displayLabel, pdfPageLabel, chapterHeading };
       });
-    }, [pages, toc, coverLabel]);
+    }, [pages, toc]);
     if (pages.length === 0) return null;
     return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("ol", { className: "py-1", children: items.map(({ page, displayLabel, pdfPageLabel, chapterHeading }) => {
       const active = page.section_id === currentSectionId;
@@ -50069,6 +50067,8 @@ function useAtomValueWithDelay<Value>(
     const idx = pages.findIndex((p) => p.section_id === currentSectionId);
     const prev = idx > 0 ? pages[idx - 1] : void 0;
     const next = idx >= 0 && idx < pages.length - 1 ? pages[idx + 1] : void 0;
+    const prevHref = idx === 0 ? "index.html" : prev?.href;
+    const nextHref = idx === pages.length - 1 ? "back-cover.html" : next?.href;
     const currentEntry = idx >= 0 ? pages[idx] : void 0;
     const currentRange = currentEntry ? pageRangeForEntry(currentEntry) : null;
     const pageNumber = currentPageFromMeta ?? currentRange?.[0] ?? null;
@@ -50083,8 +50083,8 @@ function useAtomValueWithDelay<Value>(
         DockIconButton,
         {
           ariaLabel: t("next-page") || "Next page",
-          disabled: !next,
-          onClick: () => go(next?.href),
+          disabled: !nextHref,
+          onClick: () => go(nextHref),
           className: "order-4",
           children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(ChevronRight, {})
         }
@@ -50098,8 +50098,8 @@ function useAtomValueWithDelay<Value>(
         DockIconButton,
         {
           ariaLabel: t("previous-page") || "Previous page",
-          disabled: !prev,
-          onClick: () => go(prev?.href),
+          disabled: !prevHref,
+          onClick: () => go(prevHref),
           className: "order-2",
           children: /* @__PURE__ */ (0, import_jsx_runtime86.jsx)(ChevronLeft, {})
         }
