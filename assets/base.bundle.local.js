@@ -43191,6 +43191,7 @@ function useAtomValueWithDelay<Value>(
     currentSectionId,
     printPageLabel
   }) {
+    const setDockMenuValue = useSetAtom(dockMenuValueAtom);
     const items = (0, import_react19.useMemo)(() => {
       const chapterLookup = /* @__PURE__ */ new Map();
       for (const chapter of toc) {
@@ -43245,6 +43246,7 @@ function useAtomValueWithDelay<Value>(
           {
             type: "button",
             onClick: () => {
+              setDockMenuValue("");
               window.location.href = page.href;
             },
             "aria-label": ariaLabel,
