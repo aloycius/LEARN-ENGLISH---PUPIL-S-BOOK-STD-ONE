@@ -1,6 +1,6 @@
 {
   "title": "Learn English Pupil’s Book Standard One (Kiswahili Medium Schools)",
-  "bundleVersion": "8",
+  "bundleVersion": "9",
   "languages": {
     "available": [
       "en"
@@ -8,7 +8,7 @@
     "default": "en"
   },
   "features": {
-    "signLanguage": true,
+    "signLanguage": false,
     "easyRead": true,
     "glossary": true,
     "eli5": false,

@@ -28,11 +28,9 @@ def main() -> None:
         else:
             rebuilt[key] = path.read_text(encoding="utf-8")
 
-    # Cover endcaps live outside pages.json so they never shift numbered pages
-    # or their sign-language video indexes. Include them, plus every manifest
-    # page, in the inline cache explicitly.
+    # Keep every page in the reading-order manifest available offline.
     pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
-    html_files = ["index.html", "back-cover.html", *(page["href"] for page in pages)]
+    html_files = [page["href"] for page in pages]
     for relative_path in html_files:
         path = ROOT / relative_path
         rebuilt[f"./{relative_path}"] = path.read_text(encoding="utf-8")
