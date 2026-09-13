@@ -39688,7 +39688,8 @@ function useAtomValueWithDelay<Value>(
   // src/features/sign-language/components/SLVideo.tsx
   var import_jsx_runtime29 = __toESM(require_jsx_runtime(), 1);
   function SLVideo() {
-    const features = useAtomValue(appConfigAtom).features;
+    const appConfig = useAtomValue(appConfigAtom);
+    const features = appConfig.features;
     const slMode = useAtomValue(signLanguageModeAtom);
     const setSlMode = useSetAtom(signLanguageModeAtom);
     const videoFilename = useAtomValue(currentPageSignLanguageVideoAtom);
@@ -39703,7 +39704,8 @@ function useAtomValueWithDelay<Value>(
     const [position, setPosition] = useAtom(slVideoPositionAtom);
     const [isDragging, setIsDragging] = (0, import_react14.useState)(false);
     const [aspectRatio, setAspectRatio] = (0, import_react14.useState)(null);
-    const src = features.signLanguage && slMode && videoFilename !== null ? `./content/i18n/${lang}/video/${videoFilename}` : null;
+    const videoVersion = appConfig.bundleVersion ? `?v=${encodeURIComponent(appConfig.bundleVersion)}` : "";
+    const src = features.signLanguage && slMode && videoFilename !== null ? `./content/i18n/${lang}/video/${videoFilename}${videoVersion}` : null;
     (0, import_react14.useEffect)(() => {
       setAspectRatio(null);
     }, [src]);
@@ -39823,6 +39825,8 @@ function useAtomValueWithDelay<Value>(
               ref: videoRef,
               src,
               autoPlay: true,
+              muted: true,
+              preload: "auto",
               playsInline: true,
               controls: true,
               onLoadedMetadata: (e) => {
