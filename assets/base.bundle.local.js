@@ -44710,7 +44710,7 @@ function useAtomValueWithDelay<Value>(
     )) {
       return true;
     }
-    return matchesAny(content.textContent ?? "", entry);
+    return matchesAny(getGlossarySearchText(content), entry);
   }
   async function findPageWithGlossaryTerm(entry, pages) {
     const candidates = sortedCandidates(entry);
@@ -44722,7 +44722,10 @@ function useAtomValueWithDelay<Value>(
           const res = await fetch(p.href);
           if (!res.ok) return null;
           const html = await res.text();
-          return re2.test(html) ? p : null;
+          const doc = new DOMParser().parseFromString(html, "text/html");
+          const content = doc.getElementById("content");
+          const text = content ? getGlossarySearchText(content) : "";
+          return re2.test(text) ? p : null;
         } catch {
           return null;
         }
@@ -44754,7 +44757,7 @@ function useAtomValueWithDelay<Value>(
   }
   function wrapFirstMatch(root, terms) {
     for (const term of terms) {
-      const re2 = new RegExp(`\\b${escapeRegExp2(term)}\\b`, "i");
+      const re2 = new RegExp(`\\b${buildGlossaryCandidatePattern(term)}\\b`, "i");
       const span = walkAndWrap(root, re2);
       if (span) return span;
     }
@@ -44794,13 +44797,35 @@ function useAtomValueWithDelay<Value>(
     );
   }
   function buildBoundaryRegExp(candidates) {
-    const escaped = candidates.map(escapeRegExp2).join("|");
+    const escaped = candidates.map(buildGlossaryCandidatePattern).join("|");
     return new RegExp(`\\b(?:${escaped})\\b`, "i");
+  }
+  function buildGlossaryCandidatePattern(candidate) {
+    const escaped = escapeRegExp2(candidate);
+    if (!/^[a-z]{2,}$/i.test(candidate)) return escaped;
+    const spelled = Array.from(candidate).map(escapeRegExp2).join("\\s+");
+    return `(?:${escaped}|${spelled})`;
   }
   function matchesAny(haystack, entry) {
     const candidates = sortedCandidates(entry);
     if (candidates.length === 0) return false;
     return buildBoundaryRegExp(candidates).test(haystack);
+  }
+  function getGlossarySearchText(root) {
+    const parts = [];
+    const walker = root.ownerDocument.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: (node2) => {
+        const parent2 = node2.parentElement;
+        if (!parent2 || parent2.closest("script, style")) return NodeFilter.FILTER_REJECT;
+        return node2.textContent?.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    let node2 = walker.nextNode();
+    while (node2) {
+      parts.push(node2.textContent ?? "");
+      node2 = walker.nextNode();
+    }
+    return parts.join(" ");
   }
   function escapeRegExp2(s) {
     return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -44939,7 +44964,7 @@ function useAtomValueWithDelay<Value>(
     const data = useAtomValue(glossaryDataAtom);
     const [glossaryMode, setGlossaryMode] = useAtom(glossaryModeAtom);
     const [tab, setTab] = useAtom(activeGlossaryTabAtom);
-    const filter = useAtomValue(glossaryFilterAtom);
+    const [filter, setFilter] = useAtom(glossaryFilterAtom);
     const [selected, setSelected] = useAtom(selectedGlossaryTermAtom);
     const allTerms = (0, import_react26.useMemo)(
       () => Object.values(data).sort((a, b) => a.word.localeCompare(b.word)),
@@ -44949,13 +44974,17 @@ function useAtomValueWithDelay<Value>(
       if (typeof document === "undefined") return [];
       const content = document.getElementById("content");
       if (!content) return [];
-      const haystack = (content.textContent ?? "").toLowerCase();
+      const haystack = getGlossarySearchText(content);
       if (!haystack.trim()) return [];
-      return allTerms.filter((entry) => {
-        const candidates = [entry.word, ...entry.variations ?? []];
-        return candidates.some((c) => haystack.includes(c.toLowerCase()));
-      });
+      return allTerms.filter((entry) => matchesAny(haystack, entry));
     }, [allTerms]);
+    const filteredPageTerms = (0, import_react26.useMemo)(() => {
+      const q = filter.trim().toLowerCase();
+      if (!q) return pageTerms;
+      return pageTerms.filter(
+        (entry) => entry.word.toLowerCase().includes(q) || entry.definition.toLowerCase().includes(q) || entry.variations?.some((v2) => v2.toLowerCase().includes(q))
+      );
+    }, [pageTerms, filter]);
     const filteredBookTerms = (0, import_react26.useMemo)(() => {
       const q = filter.trim().toLowerCase();
       if (!q) return allTerms;
@@ -44980,7 +45009,7 @@ function useAtomValueWithDelay<Value>(
           }
         )
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(DockContent.Search, { className: "text-lg font-semibold" }),
+      /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(DockContent.Search, { className: "text-lg font-semibold", value: filter, onChange: (e) => setFilter(e.target.value) }),
       /* @__PURE__ */ (0, import_jsx_runtime57.jsxs)(
         Tabs,
         {
@@ -44997,7 +45026,7 @@ function useAtomValueWithDelay<Value>(
             /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(TabsContent, { value: "page", className: "min-h-0", children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(ScrollArea, { className: "h-full", children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)(
               ListItems,
               {
-                entries: pageTerms,
+                entries: filteredPageTerms,
                 filter,
                 onSelect: setSelected
               }
